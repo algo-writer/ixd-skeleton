@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<link rel="stylesheet" href="../css/bootstrap-theme.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<style>
 	.button {
 		width:50%;
@@ -14,6 +15,25 @@
 	</style>
 </head>
 <body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-menu">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Algo-writer</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="header-menu">
+	      <ul class="nav navbar-nav navbar-right">
+	      <li><a href="#">Home</a></li>
+				<li><a href="../pages/settings.html">Settings</a></li>
+				<li><a href="../pages/login.html">Logout</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
 	<div class="container" align="center">
 		<h1>Hi! What would you like to code today?</h1>
 
@@ -28,7 +48,9 @@
 			<button type="submit" class="button" formaction="../pages/login.html">Logout</button>
 		</form>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="../js/bootstrap.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
