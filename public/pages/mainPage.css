@@ -20,7 +20,7 @@ ul li {
   position: relative;
   padding: 12px 8px 12px 40px;
   list-style-type: none;
-  background: #eee;
+  background: #eee; //blue
   font-size: 18px;
   transition: 0.2s;
 
@@ -114,4 +114,26 @@ input {
 
 .addBtn:hover {
   background-color: #bbb;
+}
+
+input.id {
+    width: 200em;  height: 200em;
+}
+
+input[type=submit] {
+  border: none; /*rewriting standard style, it is necessary to be able to change the size*/
+  height: 100px;
+  width: 200px
+}
+
+.button {
+    background-color: #42b9f4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
 }
