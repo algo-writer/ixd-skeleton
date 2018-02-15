@@ -1,4 +1,3 @@
-
 /*
  * GET function1 page.
  */
