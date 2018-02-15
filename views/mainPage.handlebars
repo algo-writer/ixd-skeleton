@@ -26,11 +26,11 @@
         <a class="navbar-brand" href="#">Algo-writer</a>
       </div>
       <div class="collapse navbar-collapse" id="header-menu">
-        <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="settings">Settings</a></li>
-        <li><a href="login">Logout</a></li>
-        </ul>
+        <ol class="nav navbar-nav navbar-right">
+        <li class="menulist"><a href="index">Home</a></li>
+        <li class="menulist"><a href="settings">Settings</a></li>
+        <li class="menulist"><a href="login">Logout</a></li>
+        </ol>
       </div>
     </div>
   </nav>
@@ -43,13 +43,20 @@
 
 <ul id="myUL">
     <div contenteditable="true"><li>Here is where you write all the steps in your algorithm!</li>
-        <li>Try to be specific and think "line by line" how your code should work</li>
-        <li>You can add, delete, and edit steps</li>
-        <li class="checked">Not sure you want to delete a step? Just cross it out by tapping the line!</li>
-        <li>Stuck? Maybe consider creating a variable so you can access your input</li>
-        <li>Stuck? Consider using a data structure</li>
-        <li>Stuck? Need to repeat a step? Consider creating a for-loop</li>
-        <li>Stuck? Did you remember to return your result?</li>
+        {{#pname}}
+            <li class="closeable">Your function's name is: {{newname}} <br>
+                Your function takes this parameter: {{newParameterType}} {{newParameterName}} <br>
+                You plan on returning: {{newReturnType}} {{newReturnName}} <br>
+                Your Description: {{description}}
+            </li>
+        {{/pname}}
+        <li class="closeable">Try to be specific and think "line by line" how your code should work</li>
+        <li class="closeable">You can add, delete, and edit steps</li>
+        <li class="checked closeable">Not sure you want to delete a step? Just cross it out by tapping the line!</li>
+        <li class="closeable">Stuck? Maybe consider creating a variable so you can access your input</li>
+        <li class="closeable">Stuck? Consider using a data structure</li>
+        <li class="closeable">Stuck? Need to repeat a step? Consider creating a for-loop</li>
+        <li class="closeable">Stuck? Did you remember to return your result?</li>
     </div>
 </ul>
 
