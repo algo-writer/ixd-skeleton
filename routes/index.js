@@ -17,7 +17,7 @@ exports.view = function(req, res){
 	};
 
 	pushUnique(user);
-
+	console.log(data);
 	res.render('index',user);
 };
 
@@ -27,6 +27,6 @@ exports.viewName = function(req, res){
 	};
 
 	pushUnique(user);
-
+	console.log(data)
 	res.render('index',user);
 }
