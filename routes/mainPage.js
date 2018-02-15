@@ -1,7 +1,10 @@
+var data = require("../name.json")
+
 /*
  * GET function1 page.
  */
 
 exports.viewMainPage = function(req, res){
-  res.render('mainPage');
+  console.log(data);
+  res.render('mainPage', data);
 };

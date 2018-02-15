@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c992e805-0044-404a-85aa-30e6582b7167" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/routes/steps.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/name.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/fparameters.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/js/mainPage.js" afterPath="$PROJECT_DIR$/public/js/mainPage.js" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/public/css/mainPage.css" afterPath="$PROJECT_DIR$/public/css/mainPage.css" />
+      <change beforePath="$PROJECT_DIR$/routes/fparameters.js" afterPath="$PROJECT_DIR$/routes/fparameters.js" />
+      <change beforePath="$PROJECT_DIR$/routes/function2.js" afterPath="$PROJECT_DIR$/routes/function2.js" />
+      <change beforePath="$PROJECT_DIR$/routes/function4.js" afterPath="$PROJECT_DIR$/routes/function4.js" />
+      <change beforePath="$PROJECT_DIR$/routes/great.js" afterPath="$PROJECT_DIR$/routes/great.js" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change beforePath="$PROJECT_DIR$/routes/mainPage.js" afterPath="$PROJECT_DIR$/routes/mainPage.js" />
+      <change beforePath="$PROJECT_DIR$/routes/steps.json" afterPath="$PROJECT_DIR$/routes/steps.json" />
       <change beforePath="$PROJECT_DIR$/routes/suggestions.js" afterPath="$PROJECT_DIR$/routes/suggestions.js" />
+      <change beforePath="$PROJECT_DIR$/views/afterhome.handlebars" afterPath="$PROJECT_DIR$/views/afterhome.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/fparameters.handlebars" afterPath="$PROJECT_DIR$/views/fparameters.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/freturn.handlebars" afterPath="$PROJECT_DIR$/views/freturn.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function1.handlebars" afterPath="$PROJECT_DIR$/views/function1.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function2.handlebars" afterPath="$PROJECT_DIR$/views/function2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function3.handlebars" afterPath="$PROJECT_DIR$/views/function3.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function4.handlebars" afterPath="$PROJECT_DIR$/views/function4.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/great.handlebars" afterPath="$PROJECT_DIR$/views/great.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/help1.handlebars" afterPath="$PROJECT_DIR$/views/help1.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/help2.handlebars" afterPath="$PROJECT_DIR$/views/help2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/index.handlebars" afterPath="$PROJECT_DIR$/views/index.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/login.handlebars" afterPath="$PROJECT_DIR$/views/login.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/mainPage.handlebars" afterPath="$PROJECT_DIR$/views/mainPage.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/saves.handlebars" afterPath="$PROJECT_DIR$/views/saves.handlebars" />
       <change beforePath="$PROJECT_DIR$/views/suggestions.handlebars" afterPath="$PROJECT_DIR$/views/suggestions.handlebars" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +44,18 @@
       <file leaf-file-name="suggestions.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/suggestions.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+            <state relative-caret-position="239">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,8 +64,28 @@
       <file leaf-file-name="steps.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/steps.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/mainPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,8 +94,8 @@
       <file leaf-file-name="suggestions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/suggestions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -52,8 +104,8 @@
       <file leaf-file-name="mainPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/mainPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="-165">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,23 +154,21 @@
         <option value="$PROJECT_DIR$/public/pages/suggestions.html" />
         <option value="$PROJECT_DIR$/public/pages/mainPage.html" />
         <option value="$PROJECT_DIR$/public/pages/saves.html" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/public/js/mainPage.js" />
         <option value="$PROJECT_DIR$/views/mainPage.handlebars" />
         <option value="$PROJECT_DIR$/data.json" />
-        <option value="$PROJECT_DIR$/routes/mainPage.js" />
-        <option value="$PROJECT_DIR$/routes/suggestions.js" />
         <option value="$PROJECT_DIR$/routes/data.json" />
+        <option value="$PROJECT_DIR$/public/js/mainPage.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/suggestions.js" />
+        <option value="$PROJECT_DIR$/routes/mainPage.js" />
         <option value="$PROJECT_DIR$/routes/steps.json" />
         <option value="$PROJECT_DIR$/views/suggestions.handlebars" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="85" />
-    <option name="y" value="146" />
     <option name="width" value="1366" />
-    <option name="height" value="678" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -296,7 +346,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="703" y="0" width="663" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -311,7 +361,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.066022545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26435044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -334,7 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/pages/class2.html" />
     <entry file="file://$PROJECT_DIR$/public/pages/function4.html" />
     <entry file="file://$PROJECT_DIR$/public/pages/great.html" />
     <entry file="file://$PROJECT_DIR$/public/pages/function2.html" />
@@ -402,13 +451,6 @@
     <entry file="file://$PROJECT_DIR$/public/pages/mainPage.css" />
     <entry file="file://$PROJECT_DIR$/public/pages/mainPage.html" />
     <entry file="file://$PROJECT_DIR$/public/pages/saves.html" />
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/mainPage.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -417,42 +459,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/mainPage.js">
+    <entry file="file://$PROJECT_DIR$/public/js/mainPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="-165">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/mainPage.js">
+    <entry file="file://$PROJECT_DIR$/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/suggestions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/steps.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/suggestions.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+        <state relative-caret-position="239">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
