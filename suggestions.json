@@ -185,10 +185,6 @@
     	"suggestions": "int x = 2;\nprint x;"
     }
 
-    {
-    	"english": "print",
-    	"suggestions": "String str = ""Hello World!"";\nSystem.out.println(str);"
-    }
 
 
 
