@@ -1,0 +1,200 @@
+{
+  "sugg": [
+    {
+      "english": "add",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add numbers",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add two numbers",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add values",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add two values",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add ints",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add two ints",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add integers",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "add two integers",
+      "suggestions": "int x, y, z;\nz = x + y;"
+    },
+
+    {
+      "english": "subtract",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract numbers",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract two numbers",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract values",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract two values",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract ints",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract two ints",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract integers",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "subtract two integers",
+      "suggestions": "int x, y, z;\nz = x - y;"
+    },
+
+    {
+      "english": "multiply",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply numbers",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply two numbers",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply values",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply two values",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply ints",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply two ints",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply integers",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+    {
+      "english": "multiply two integers",
+      "suggestions": "int x, y, z;\nz = x * y;"
+    },
+
+     {
+      "english": "divide",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide numbers",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide two numbers",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide values",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide two values",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide ints",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide two ints",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide integers",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+      "english": "divide two integers",
+      "suggestions": "int x, y, z;\nz = x / y;"
+    },
+
+    {
+    	"english": "print the value",
+    	"suggestions": "int x = 2;\nprint x;"
+    }
+
+    {
+    	"english": "print",
+    	"suggestions": "String str = ""Hello World!"";\nSystem.out.println(str);"
+    }
+
+
+
+
+
+
+  ]
+    }
+}
