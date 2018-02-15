@@ -27,11 +27,17 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
+
+var myStepsArray = [];
+
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);
+  myStepsArray.push(inputValue);
+  console.log(myStepsArray);
+
   li.appendChild(t);
   if (inputValue === '') {
     alert("You must write something!");
@@ -53,3 +59,8 @@ function newElement() {
     }
   }
 }
+
+
+
+exports.newElement = newElement;
+exports.myStepsArray = myStepsArray;

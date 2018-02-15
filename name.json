@@ -2,9 +2,11 @@
   "pname": [
     {
       "newname": "name",
-      "newReturnType": "int",
-      "newReturnName": "help",
-      "description": "description"
+      "newReturnType": "skajfs",
+      "newReturnName": "wow",
+      "description": "description",
+      "newParameterType": "asdf",
+      "newParameterName": "jkl;"
     }
   ]
 }

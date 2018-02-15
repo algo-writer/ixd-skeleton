@@ -1,14 +1,16 @@
-var data = require("../stepsData.json")
+const { newElement, myStepsArray } = require("./mainPage");
+
 /*
- * GET suggestions page.
+ * GET function1 page.
  */
 
 exports.viewSuggestions = function(req, res){
   res.render('suggestions');
 };
 
+console.log("");
 
-
-
-
+if (myStepsArray != null) {
+    alert("Hello! I am an alert box!!");
+}
 
