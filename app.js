@@ -51,7 +51,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', login.viewLogin);
+app.get('/', index.view);
 app.get('/index', index.viewName);
 app.get('/function1', function1.viewFunction1);
 app.get('/function2', function2.viewFunction2);
