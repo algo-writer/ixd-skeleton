@@ -7,9 +7,10 @@ function initializePage(){
     $(button).click(append)
 }
 
+var x = 0; //initial text box count
 function append(e){ //on add input button click
-        var max_fields = 20; //maximum input boxes allowed
-        var x = 1; //initial text box count
+        var max_fields = 10; //maximum input boxes allowed
+
         var div = $("#inputs")
         var html = "<input id = 'type' type='text' placeholder='Parameter Type'><input id='name' type='text' placeholder='Parameter Name'><br>";
         e.preventDefault();

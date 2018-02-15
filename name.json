@@ -1,0 +1,10 @@
+{
+  "pname": [
+    {
+      "newname": "name",
+      "newReturnType": "int",
+      "newReturnName": "help",
+      "description": "description"
+    }
+  ]
+}
