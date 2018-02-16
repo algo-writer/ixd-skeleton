@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-//const { newElement, myStepsArray } = require("./mainPage");
+
 var dataSteps = require("../steps.json")
 var dataSugg = require("../suggestions.json")
-=======
->>>>>>> 4728290307918eb277055c835f3c27ac00deb220
 
 /*
  * GET function1 page.
@@ -13,7 +10,7 @@ exports.viewSuggestions = function(req, res){
   res.render('suggestions', data);
 };
 
-<<<<<<< HEAD
+
 var givenSugg;
 
 function giveSugg(){
@@ -29,7 +26,6 @@ function giveSugg(){
 	}
 }
 
-=======
->>>>>>> 4728290307918eb277055c835f3c27ac00deb220
+
 
 
