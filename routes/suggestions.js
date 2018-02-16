@@ -1,5 +1,3 @@
-var data = require('./steps.json');
-
 //const { newElement, myStepsArray } = require("./mainPage");
 var dataSteps = require("../steps.json")
 var dataSugg = require("../suggestions.json")
@@ -29,7 +27,6 @@ function giveSugg(){
 	}
 }
 
-//console.log("");
 
 
 
