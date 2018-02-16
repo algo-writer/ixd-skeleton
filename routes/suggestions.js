@@ -8,7 +8,7 @@ exports.viewSuggestions = function(req, res){
   res.render('suggestions');
 };
 
-console.log("");
+//console.log("");
 
 /*if (myStepsArray != null) {
     alert("Hello! I am an alert box!!");
