@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--     <script>
+      $.getJSON('steps.json', function(dataSteps)){
+        
+      }
+
+        function giveSugg(){
+            console.log("Do i get here");
+          for (var item in dataSteps.codeRecs){
+            var stepWord = JSON.stringify(dataSteps.codeRecs[item]);
+            for (var item2 in dataSugg.sugg){
+              var recWord = JSON.stringify(dataSugg.sugg.english[item2]);
+              if (stepWord.includes(recWord) == true){
+                givenSugg = JSON.stringify(dataSugg.sugg.suggestions[item2]);
+                console.log("This is givenSugg: " + givenSugg);
+            }
+
+        }
+    }
+}
+
+</script> -->
 
   <br>
     <meta charset="utf-8">
@@ -30,8 +51,10 @@
 
   <body>
   <div id="results"> </div>
+<!--     <button  onclick="giveSugg()">See Suggestions"</button> -->
     <button><a href="mainPage">Back to Steps</a></button>
     <button><a href="index">Home</a></button>
+
 
 
 
@@ -39,8 +62,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-    <script type ="text/javascript">ajax_get_json();</script>
-    <script type ="text/javascript" src="steps.json"></script>
+    <!-- <script type ="text/javascript">ajax_get_json();</script> -->
+    <!-- <script type ="text/javascript" src="steps.json"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
