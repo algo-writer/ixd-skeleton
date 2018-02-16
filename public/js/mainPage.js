@@ -59,8 +59,3 @@ function newElement() {
     }
   }
 }
-
-
-
-exports.newElement = newElement;
-exports.myStepsArray = myStepsArray;
