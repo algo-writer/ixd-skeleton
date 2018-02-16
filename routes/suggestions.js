@@ -10,7 +10,7 @@ exports.viewSuggestions = function(req, res){
 
 console.log("");
 
-if (myStepsArray != null) {
+/*if (myStepsArray != null) {
     alert("Hello! I am an alert box!!");
-}
+}*/
 
