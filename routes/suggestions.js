@@ -1,4 +1,4 @@
-const { newElement, myStepsArray } = require("./mainPage");
+//const { newElement, myStepsArray } = require("./mainPage");
 
 /*
  * GET function1 page.
