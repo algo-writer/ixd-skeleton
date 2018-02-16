@@ -1,16 +1,34 @@
-//{
-//  "u1":{ "user":"John", "age":22, "country":"United States" },
-//  "u2":{ "user":"Will", "age":27, "country":"United Kingdom" },
-//  "u3":{ "user":"Abiel", "age":19, "country":"Mexico" },
-//  "u4":{ "user":"Rick", "age":34, "country":"Panama" },
-//  "u5":{ "user":"Susan", "age":23, "country":"Germany" },
-//  "u6":{ "user":"Amy", "age":43, "country":"France" },
-//  "u7":{ "user":"Pete", "age":18, "country":"Italy" },
-//  "u8":{ "user":"Chris", "age":25, "country":"United States" },
-//  "u9":{ "user":"Louis", "age":31, "country":"Spain" },
-//  "u10":{ "user":"Emily", "age":38, "country":"Uraguay" },
-//  "u11":{ "user":"Shawn", "age":52, "country":"Chile" },
-//  "u12":{ "user":"Greg", "age":24, "country":"Romania" }
-//}
-
-[{"name" : "Ashwin", "age" : "20"},{"name" : "Abhinandan", "age" : "20"}]
+{
+  "codeRecs": [
+    {
+      "name": "Doug Engelbart",
+      "description": "Has awesome pet mice",
+      "imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"
+    },
+    {
+      "name": "Ivan Sutherland",
+      "description": "Great at sketching",
+      "imageURL": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Ivan_Sutherland_at_CHM.jpg"
+    },
+    {
+      "name": "Lucy Suchman",
+      "description": "Loves Trukese navigators",
+      "imageURL": "http://upload.wikimedia.org/wikipedia/commons/d/df/Lucy_Suchman.jpeg"
+    },
+    {
+      "name": "Vannevar Bush",
+      "description": "Has stellar associative memory",
+      "imageURL": "http://upload.wikimedia.org/wikipedia/commons/e/ea/Vannevar_Bush_portrait.jpg"
+    },
+    {
+      "name": "Grace Hopper",
+      "description": "Only friend with a Navy ship named after them",
+      "imageURL": "http://amhistory.si.edu/ogmt/images/upload/women-mathematicians/AHB2012q06025.jpg"
+    },
+    {
+      "name": "Allen Newell",
+      "description": "Really into psychology",
+      "imageURL": "http://uploads.edubilla.com/awards-winners/92/b4/allen-newell.jpg"
+    }
+  ]
+}

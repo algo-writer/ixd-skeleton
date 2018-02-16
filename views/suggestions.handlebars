@@ -11,25 +11,14 @@
 
       <h1>Here's what we'd recommend you doing.</h1>
 
-      <script>
-      function ajax_get_json() {
-	    var results = document.getElementById("results");
-        var hr = new XMLHttpRequest();
-        hr.open("GET", "steps.json", true);
-        hr.setRequestHeader("Content-type", "application/json", true);
-        hr.onreadystatechange = function() {
-	        if(hr.readyState == 4 && hr.status == 200) {
-		        var data = JSON.parse(hr.responseText);
-			    results.innerHTML = "";
-			    for(var obj in data) {
-				    results.innerHTML += data[obj].user+" is "+data[obj].age+" and lives in "+data[obj].country+"<h r />";
-			    }
-	        }
-        }
-        hr.send(null);
-        results.innerHTML = "requesting...";
-    }
-      </script>
+      {{#each codeRecs}}
+          <div class = "myFriends">
+              <p><img src={{imageURL}} class="img-rounded" class="img-thumbnail"></p>
+              <p><a href="#" class="changeName">{{name}}</a></p>
+              <p>{{description}}</p>
+          </div>
+      {{/each}}
+
   </head>
 
   <body>
