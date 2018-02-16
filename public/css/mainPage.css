@@ -47,7 +47,7 @@ ul li:hover {
 ul li.checked {
   background: #FFFFFF /*#888;*/
   color: black;
-  text-decoration: line-through;
+ /* text-decoration: line-through; */
 }
 
 /* Add a "checked" mark when clicked on */
