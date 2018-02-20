@@ -1,0 +1,8 @@
+{
+  "parameters": [
+    {
+      "type": "Example Parameter Type",
+      "name": "Example Parameter Name"
+    }
+  ]
+}

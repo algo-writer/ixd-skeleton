@@ -25,6 +25,9 @@ var finished = require('./routes/finished');
 var suggestions = require('./routes/suggestions');
 var great = require('./routes/great');
 var mainPage = require('./routes/mainPage');
+var yourparameters = require('./routes/yourparameters');
+var details = require('./routes/details');
+var fparameters2 = require('./routes/fparameters2')
 
 // Example route
 // var user = require('./routes/user');
@@ -69,6 +72,9 @@ app.get('/finished', finished.viewFinished);
 app.get('/suggestions', suggestions.viewSuggestions);
 app.get('/great', great.viewGreat);
 app.get('/mainPage', mainPage.viewMainPage);
+app.get('/yourparameters', yourparameters.viewYourParameters);
+app.get('/details', details.viewDetails);
+app.get('/fparameters2', fparameters2.viewFparameters2);
 // Example route
 // app.get('/users', user.list);
 

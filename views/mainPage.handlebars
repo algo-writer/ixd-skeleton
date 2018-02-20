@@ -43,15 +43,12 @@
     <span onclick="newElement()" class="addBtn">Add</span>
 </div>
 
+    <div>
+        <button class="button"><a href="yourparameters">Your Parameters</a></button>
+        <button class="button"><a href = "details">Algorithm Details</a></button>
+    </div>
 <ul id="myUL">
     <div contenteditable="true">
-        {{#pname}}
-        <li class="closeable">Your function's name is: {{newname}} <br>
-            Your function takes this parameter: {{nwParameterType}} {{newParameterName}} <br>
-            You plan on returning a: {{newReturnType}} ({{newReturnName}}) <br>
-            Your Description: {{description}}
-        </li>
-        {{/pname}}
         <li>Here is where you write all the steps in your algorithm!</li>
         <li class="closeable">Try to be specific and think "line by line" how your code should work</li>
         <li class="closeable">You can add, delete, and edit steps</li>

@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>Function Step 1</title>
 
     <!-- Bootstrap core CSS -->
@@ -35,20 +34,16 @@
           25%
       </div>
   </div>
-    <div>
-        <h1>Is there a parameter you'd like your function to take in?</h1>
-        <div id="inputs">
-    <form action="function3" method="get">
-            <input name="ptype" type="text" placeholder="Parameter Type">
-        <input name="pname" type="text" placeholder="Parameter Name">
-        <input id="done" type="submit" value="Confirm">
-    </form>
-        </div>
-        <button class="add">Add More Parameters</button>
+  <main>
+      <form action="fparameters2">
+          <input type="text" id="ptype">
+          <input type="text" id="pname">
+          <button type="submit">Add More</button>
+          <button type="submit" formaction="function3">Submit to another page</button>
+      </form>
+  </main>
 
-
-    </div>
-    <br>
+  </body>
 
     <button><a href="function2">Wait, nevermind.</a></button>
     </body>
@@ -62,6 +57,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <script src="../js/fparameters.js"></script>
   </body>
 </html>
