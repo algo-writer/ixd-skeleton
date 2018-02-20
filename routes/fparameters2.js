@@ -4,8 +4,8 @@ var data = require("../parameters.json");
  */
 
 exports.viewFparameters2 = function(req, res){
-    var newType = req.query.ptype;
-    var newName = req.query.pname;
+    var newType = req.query.paramtype;
+    var newName = req.query.paramname;
     var newJson = {"type":newType, "name":newName};
     console.log(newJson);
     data.parameters.push(newJson);

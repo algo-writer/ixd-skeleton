@@ -1,0 +1,24 @@
+{
+"boxes": [
+{
+  "step": "Try to be specific and think line by line how your code should work"
+},
+
+{
+"step": "Stuck? Maybe consider creating a variable so you can access your input"
+},
+
+{
+"step": "Stuck? Consider using a data structure"
+},
+
+{
+"step": "Stuck? Need to repeat a step? Consider creating a for-loop"
+},
+
+{
+"step": "Stuck? Did you remember to return your result?"
+}
+
+]
+}

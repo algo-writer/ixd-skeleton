@@ -3,10 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Function Step 1</title>
 
     <!-- Bootstrap core CSS -->
-
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -28,25 +30,18 @@
         </div>
     </div>
 </nav>
-<div class="progress">
-    <div class="progress-bar" role="progressbar" aria-valuenow="25"
-         aria-valuemin="0" aria-valuemax="100" style="width:25%">
-        25%
-    </div>
+<div>
+    <h1>Here are some quick tips and reminders:</h1>
+
+    <ul>
+        {{#each boxes}}
+            <li><h3>{{step}}</h3></li>
+        {{/each}}
+    </ul>
+
+    <button><a href="javascript:history.back()">Go Back</a></button>
 </div>
-<main>
-    <h3>Previous input was added.</h3>
-    <form action="fparameters2">
-        <input type="text" name="paramtype" placeholder="Parameter Type">
-        <input type="text" name="paramname" placeholder="Parameter Name"><br><br>
-        <input type="submit" value="Add More">
-        <input type="submit" formaction="function3" value="Add Last"> <br>
-    </form>
-</main>
 
-</body>
-
-<button><a href="function2">Wait, nevermind.</a></button>
 </body>
 
 
@@ -57,6 +52,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+
 </body>
 </html>

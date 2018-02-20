@@ -27,7 +27,8 @@ var great = require('./routes/great');
 var mainPage = require('./routes/mainPage');
 var yourparameters = require('./routes/yourparameters');
 var details = require('./routes/details');
-var fparameters2 = require('./routes/fparameters2')
+var fparameters2 = require('./routes/fparameters2');
+var tips = require('./routes/tips');
 
 // Example route
 // var user = require('./routes/user');
@@ -75,6 +76,8 @@ app.get('/mainPage', mainPage.viewMainPage);
 app.get('/yourparameters', yourparameters.viewYourParameters);
 app.get('/details', details.viewDetails);
 app.get('/fparameters2', fparameters2.viewFparameters2);
+app.get('/tips', tips.viewTips);
+app.get('')
 // Example route
 // app.get('/users', user.list);
 
