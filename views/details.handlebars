@@ -11,34 +11,25 @@
     <link rel="stylesheet" href="/css/bootstrap-theme.css">
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-menu">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Algo-writer</a>
-        </div>
-        <div class="collapse navbar-collapse" id="header-menu">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="settings">Settings</a></li>
-                <li><a href="login">Logout</a></li>
-            </ul>
-        </div>
-    </div>
+<nav class="navbar navbar-inverse" style="text-align: center">
+    <p class="navbar-brand" style="font-size: 20px">Algo-writer</p>
 </nav>
-<div>
+<div class="container">
     <h1>Here are some details about your algorithm:</h1>
     {{#pname}}
-        <h2>Your function's name is: {{newname}} <br>
-            You plan on returning a: {{newReturnType}} ({{newReturnName}}) <br>
-            Your Description: {{description}}
-        </h2>
+        <div class="container">
+        <h3>Your function's name is: {{newname}} <br><br>
+            You plan on returning a: {{newReturnType}} ({{newReturnName}}) <br><br>
+            Your Description: {{description}}<br><br>
+        </h3>
+        </div>
+        <div class="container">
+        <h4>You might start off like this: <br><br>
+            /**{{description}}*/ <br><br>
+            {{newReturnType}} {{newname}} {<br><br>}</h4>
+        </div>
     {{/pname}}
-
+    <br>
     <button><a href="javascript:history.back()">Go Back</a></button>
 
 </div>
