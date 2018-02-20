@@ -1,12 +1,10 @@
 {
   "pname": [
     {
-      "newname": "name",
-      "newReturnType": "skajfs",
-      "newReturnName": "wow",
-      "description": "description",
-      "newParameterType": "asdf",
-      "newParameterName": "jkl;"
+      "newname": "No Name Given...",
+      "newReturnType": "void",
+      "newReturnName": "N/A",
+      "description": "Description Missing..."
     }
   ]
 }
