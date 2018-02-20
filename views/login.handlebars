@@ -11,12 +11,16 @@
   </head>
   <body>
     <form method="get" action="/index">
-      <h1>Login</h1>
-      <input type="text" placeholder="username" name="username">
-      <br>
-      <input type="password" placeholder="password">
-      <br>
-      <input type="submit" value="Login!">
+      
+      <div class="container">
+        <h1>Login</h1>
+        <label for="username"><b>Username</b></label>
+        <input class="form-control" type="text" placeholder="username" name="username">
+        <label for="password"><b>Password</b></label>
+        <input class="form-control" type="password" placeholder="password">
+        <br>
+        <input class="btn btn-lg" type="submit" value="Login!">
+      </div>
     </form>
 
 
