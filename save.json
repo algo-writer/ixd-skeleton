@@ -2,6 +2,27 @@
   "save": [
     {
       "step": "Previously saved steps:"
+    },
+    {
+      "step": "Create an empty string"
+    },
+    {
+      "step": "Create a for loop that iterates through the length of String"
+    },
+    {
+      "step": "Start the loop at the end of the String minus 1"
+    },
+    {
+      "step": "Stop at 0"
+    },
+    {
+      "step": "For each iteration get the character at the index"
+    },
+    {
+      "step": "Concatenate the current character to the previously initialized String"
+    },
+    {
+      "step": "Return the new string which should be reversed..."
     }
   ]
 }
