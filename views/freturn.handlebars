@@ -36,12 +36,22 @@
       </div>
   </div>
     <form action="function4" method="get">
+      <div class="container">
       <h1>What is the type of the thing you want your function to return?</h1>
-      <input type="text" placeholder="Return Type" name="rtype">
-      <input type="text" placeholder="Describe you want to return." name="rname">
-      <input type="submit" value="Done!">
-    </form>
-    <button><a href="function3">Wait, nevermind.</a></button>
+      <div class="row">
+        <div class="col-xs-6">
+      <input class="form-control" type="text" placeholder="Return Type" name="rtype" required>
+        </div>
+        <div class="col-xs-6">
+      <input class="form-control" type="text" placeholder="Description" name="rname" required>
+    </div>
+    </div>
+    <br>
+      <button type="submit" class="btn btn-lg">Done!</button>
+    <button type="submit" class="btn btn-lg" formaction="function3">Wait, nevermind.</button>
+  </div>
+        </form>
+
     </body>
 
 
