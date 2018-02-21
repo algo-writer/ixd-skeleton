@@ -34,11 +34,11 @@
     <h2 style="margin:5px">My Parameters</h2>
     <form action="add">
         <div>
-    <input type="text" id="myInput" name="newtype" placeholder="Parameter Type">
-    <input type="text" id="myInput2" name="newname" placeholder="Parameter Name">
+            <input type="text" id="myInput" name="newtype" placeholder="Parameter Type">
+            <input type="text" id="myInput2" name="newname" placeholder="Parameter Name">
         </div>
         <div>
-        <input type="submit" class="addBtn" id="myInput3" name="submit" value="add">
+            <input type="submit" class="addBtn" id="myInput3" name="submit" value="add">
         </div>
     </form>
 </div>
@@ -48,10 +48,11 @@
     <ul>
         {{#each parameters}}
             <li><h3>{{type}}, {{name}}</h3></li>
-            {{/each}}
+        {{/each}}
+        <li><h3>String, input</h3></li>
     </ul>
 
-    <button><a href="mainpage">Go Back</a></button>
+    <button><a href="mainpage2">Go Back</a></button>
 </div>
 
 </body>

@@ -30,6 +30,8 @@ var details = require('./routes/details');
 var fparameters2 = require('./routes/fparameters2');
 var tips = require('./routes/tips');
 var index2 = require('./routes/mainpage2');
+var details2 = require('./routes/details2');
+var yourparameters2 = require('./routes/yourparameters2');
 
 // Example route
 // var user = require('./routes/user');
@@ -81,6 +83,9 @@ app.get('/tips', tips.viewTips);
 app.get('/mainpage2', index2.viewMainPage);
 app.get('/add', yourparameters.addParameter);
 app.get('/add2', fparameters.addParameter);
+app.get('/details2', details2.viewDetails);
+app.get('/yourparameters2', yourparameters2.viewYourParameters);
+app.get('/add3', yourparameters2.addParameter);
 // Example route
 // app.get('/users', user.list);
 
