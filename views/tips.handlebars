@@ -30,16 +30,18 @@
         </div>
     </div>
 </nav>
-<div>
-    <h1>Here are some quick tips and reminders:</h1>
-
+<div class="container">
+    <h2>Here are some quick tips and reminders:</h2>
+    <br>
     <ul>
         {{#each boxes}}
-            <li><h3>{{step}}</h3></li>
+            <li><h4>{{step}}</h4></li>
+            <br>
         {{/each}}
     </ul>
-
-    <button><a href="javascript:history.back()">Go Back</a></button>
+    <form>
+    <button class="btn btn-lg" formaction="javascript:history.back()">Go Back</button>
+</form>
 </div>
 
 </body>
