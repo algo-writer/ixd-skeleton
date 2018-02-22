@@ -20,6 +20,6 @@ function statusChangeCallback(response) {
 
 function fblogin(response) {
   console.log(response);
-  $("#usrname").val(response.name);
-  $("#form").submit();
+  $("#username").val(response.name);
+  $('#form').submit();
 }
