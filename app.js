@@ -86,6 +86,7 @@ app.get('/add2', fparameters.addParameter);
 app.get('/details2', details2.viewDetails);
 app.get('/yourparameters2', yourparameters2.viewYourParameters);
 app.get('/add3', yourparameters2.addParameter);
+app.get('/add5', index2.addStep)
 // Example route
 // app.get('/users', user.list);
 
