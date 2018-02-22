@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -9,8 +10,36 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="/css/navb.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="" crossorigin="anonymous">
-  </head>
-  <body>
+
+
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '2087918481436618',
+                cookie: true,
+                xfbml: true,
+                version: 'v2.8'
+            });
+
+            FB.AppEvents.logPageView();
+
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</head>
+
+<body>
 
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -20,18 +49,19 @@
         </div>
     </nav>
     <form method="get" action="/index">
-      
-      <div class="container">
-        <h1>Login</h1>
-        <label for="username"><b>Username</b></label>
-        <input class="form-control" type="text" placeholder="username" name="username">
-        <label for="password"><b>Password</b></label>
-        <input class="form-control" type="password" placeholder="password">
-        <br>
-        <input class="btn btn-lg" type="submit" value="Login!">
-      </div>
-    </form>
 
+        <div class="container">
+            <h1>Login</h1>
+            <label for="username"><b>Username</b></label>
+            <input class="form-control" type="text" placeholder="username" name="username">
+            <label for="password"><b>Password</b></label>
+            <input class="form-control" type="password" placeholder="password">
+            <br>
+            <input class="btn btn-lg" type="submit" value="Login!">
+
+            <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+        </div>
+    </form>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -41,5 +71,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
