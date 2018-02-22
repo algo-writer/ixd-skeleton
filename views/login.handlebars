@@ -9,7 +9,9 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="/css/navb.css">
+    <link rel="stylesheet" href="/css/login.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="" crossorigin="anonymous">
+
 
 
     <script>
@@ -52,12 +54,15 @@
 
         <div class="container">
             <h1>Login</h1>
-            <label for="username"><b>Username</b></label>
-            <input class="form-control" type="text" placeholder="username" name="username">
-            <label for="password"><b>Password</b></label>
-            <input class="form-control" type="password" placeholder="password">
             <br>
-            <input class="btn btn-lg" type="submit" value="Login!">
+            <p class="valid">Valid. Please wait a moment.</p>
+            <p class="error">Error. Please enter correct Username &amp; password.</p>
+            <form class="loginbox" autocomplete="off">
+                <input class="form-control" placeholder="Username" type="text" id="username" name="username">
+                <input class="form-control" placeholder="Password" type="password" id="password">
+                <br>
+                <button class="btn btn-lg" id="submit">Login</button>
+            </form>
 
             <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
         </div>
@@ -70,7 +75,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
+    <script src="/js/login.js"></script>
 </body>
 
 </html>
