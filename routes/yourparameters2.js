@@ -1,4 +1,4 @@
-var data = require("../parameters.json");
+var data = require("../parameters2.json");
 
 exports.viewYourParameters = function(req, res){
     res.render('yourparameters2', data);

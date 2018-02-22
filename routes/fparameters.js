@@ -4,7 +4,7 @@ var data = require('../parameters.json');
  */
 
 exports.viewFparameters = function(req, res){
-  res.render('fparameters');
+  res.render('fparameters', data);
 };
 
 exports.addParameter = function(req,res){
