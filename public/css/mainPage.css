@@ -115,7 +115,7 @@ input {
 }
 
 .addBtn:hover {
-  background-color: #FFFFFF;/*#bbb;*/
+  background-color: #bbb;/*#bbb;*/
 }
 
 input.id {
@@ -131,7 +131,7 @@ input[type=submit] {
 .button {
     background-color: black; /* Blue=#42b9f4 */
     border: none;
-    color: white; /* was white b4*/
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
