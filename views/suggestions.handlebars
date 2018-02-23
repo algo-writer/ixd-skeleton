@@ -2,98 +2,23 @@
 <html lang="en">
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!--     <script>
-      $.getJSON('steps.json', function(dataSteps)){
-
-      }
-
-        function giveSugg(){
-            console.log("Do i get here");
-          for (var item in dataSteps.codeRecs){
-            var stepWord = JSON.stringify(dataSteps.codeRecs[item]);
-            for (var item2 in dataSugg.sugg){
-              var recWord = JSON.stringify(dataSugg.sugg.english[item2]);
-              if (stepWord.includes(recWord) == true){
-                givenSugg = JSON.stringify(dataSugg.sugg.suggestions[item2]);
-                console.log("This is givenSugg: " + givenSugg);
-            }
-
-        }
-    }
-}
-
-</script> -->
-
 <script>
-
-//var eachStep = JSON.parse(localStorage.getItem("main"));
-// var mySugg = JSON.parse(suggestions);
-// console.log(mySugg[0].english);
-// console.log(mySugg[0].suggestions);
-
-// console.log("Testing 1")
-// var testJson = $.getJSON("/suggestions", function(){
-//   console.log("Testing 2");
-// })
-// console.log("Testing 3" + testJson['english']);
-
-// console.log("Testing 1");
-// $.getJSON("/suggestions", myFunction);
-// //   console.log("JSON" + dataSugg.sugg);
-// // })
-// console.log("Testing 3");
-
-// function myFunction(e){
-//   console.log("Testing function" + e);
-// }
-
 $.get("/getSuggs",cbf);
 
 function cbf(result) {
   var suggArray = [];
-  //console.log(result);
-  //console.log(result.sugg.length);
-  //console.log(result.sugg[0].english);
   var userInput = JSON.parse(sessionStorage.getItem('main'));
   for (var i = 0; i < userInput.length; i++) {
     for (var j = 0; j < result.sugg.length; j++) {
-        //console.log(userInput[i]);
-        //console.log(result.sugg[j].english);
         if (userInput[i].includes(result.sugg[j].english)){
           suggArray.push(result.sugg[j].suggestions);
           console.log(suggArray);
-
         }    
       }
     }
     document.getElementById('suggArray').innerHTML = suggArray.toString();
     $("#suggArray").html(suggArray.toString());
-
-  }
-
-// var input = "{{sugg}}";
-// console.log(input);
-// for (var i = 0; i < sugg.length; i++) {
-//   console.log(sugg[i].english);
-// }
-
-// $.get("/suggestions", callBackFn);
-// // //var dataSuggs = require("../suggestions.json");
-// // // console.log("rednering data" + eachStep);
-// // // for (var i = 0; i < eachStep.length; i++){
-// // //   console.log(i);
-// // //   console.log(eachStep[i]);
-// // //   for (var j = 0; j < sugg.length; j++){
-// // //     if (sugg[i].english.includes(eachStep[i])){
-// // //       document.write(sugg[i].suggestions);
-// // //     }
-// // //   }
-// // // }
-
-// function callBackFn(result){
-//   console.log("Hello ");
-// }
-
+ }
 </script>
 
 <br>
@@ -106,49 +31,22 @@ function cbf(result) {
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 
 
-<h1>Here's what we'd recommend you doing.</h1>
-
-<h2>You can add your variables like this: </h2>
-<h3><code> int x, y, z; z = x + y; </code></h3><br>
-<h2>Here is how you could print your variables: </h2>
-<h3><code>int x = 2; print x; </code></h3><br>
-<h2>Here is how you can construct your loop: </h2>
-<h3><code> for (int i = 0; i < 10; i++) { </code></h3>
-<h3><code> //do something </code></h3>
-<h3><code>}</code></h3><br>
-<h3>Happy Coding! You got this!</h3>
-
+<h1><center>Here's what we'd recommend you doing.</center></h1>
 
 
 </head>
-
 <body>
-
- <div id = "suggArray">
+<h5><center><div id = "suggArray"></div></center></h5>
  </div>
 
-
- <div id="results"> </div>
  <!--     <button  onclick="giveSugg()">See Suggestions"</button> -->
  <button><a href="mainPage">Back to Steps</a></button>
  <button><a href="index">Home</a></button>
 
-
-
-
-    <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-
-      <!-- <script type ="text/javascript">ajax_get_json();</script> -->
-      <!-- <script type ="text/javascript" src="steps.json"></script> -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-      
-<!--     <script type="text/javascript" src="suggestions.json"></script>
-  <script type="text/javascript" src="suggestions.handlebars"></script> -->
 
 </body>
 </html>
