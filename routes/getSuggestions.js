@@ -1,7 +1,8 @@
-var projects = require('../suggestions.json');
+var getSuggs = require('../suggestions.json');
 
-exports.projectInfo = function(req, res) { 
-	res.json(projects);
+exports.suggJson = function(req, res) { 
+	console.log("used getsuggestions json");
+	res.json(getSuggs);
 }
 
 

@@ -32,7 +32,8 @@ var tips = require('./routes/tips');
 var index2 = require('./routes/mainpage2');
 var details2 = require('./routes/details2');
 var yourparameters2 = require('./routes/yourparameters2');
-var suggJson = require('./suggestions.json');
+//var suggJson = require('./suggestions.json');
+var getSuggestions = require('./routes/getSuggestions');
 
 // Example route
 // var user = require('./routes/user');
@@ -88,7 +89,10 @@ app.get('/details2', details2.viewDetails);
 app.get('/yourparameters2', yourparameters2.viewYourParameters);
 app.get('/add3', yourparameters2.addParameter);
 app.get('/add5', index2.addStep);
-app.get('/suggestions', suggJson.callBackFn);
+app.get('/getSuggs', getSuggestions.suggJson);
+// app.get('/suggestions', function(req, res){
+// 	res.json(suggJson);
+// });
 // Example route
 // app.get('/users', user.list);
 
