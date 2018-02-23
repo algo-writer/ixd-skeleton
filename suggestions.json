@@ -2,7 +2,7 @@
     "sugg": [
       {
         "english": "add",
-        "suggestions": "int x, y, z;\nz = x + y;"
+        "suggestions": "int x, y, z;      z = x + y;"
       },
 
         {
@@ -437,7 +437,7 @@
 
     {
        "english": "increment i by 1",
-       "suggestions": "i++;"
+       "suggestions": "i++; "
     },
 
     {
