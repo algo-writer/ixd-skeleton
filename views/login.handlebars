@@ -1,24 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Login</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/css/navb.css">
+    <link rel="stylesheet" href="/css/login.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="" crossorigin="anonymous">
-  </head>
-  <body>
-    <form method="get" action="/index">
-      <h1>Login</h1>
-      <input type="text" placeholder="username" name="username">
-      <br>
-      <input type="password" placeholder="password">
-      <br>
-      <input type="submit" value="Login!">
+
+
+
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '2087918481436618',
+                cookie: true,
+                xfbml: true,
+                version: 'v2.8'
+            });
+
+            FB.AppEvents.logPageView();
+
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
+            </div>
+        </div>
+    </nav>
+    <form method="get" action="/index" id="form">
+
+        <div class="container">
+            <h1>Login</h1>
+            <br>
+            <p class="valid">Valid. Please wait a moment.</p>
+            <p class="error">Error. Please enter correct Username &amp; password.</p>
+                <input class="form-control" placeholder="Username" type="text" id="username" name="username">
+                <input class="form-control" placeholder="Password" type="password" id="password">
+                <button class="btn btn-lg" id="subm">Login</button>
+            <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false" onlogin=checkLoginState()></div>
+        </div>
     </form>
 
+        <div style="position: absolute; bottom: 5px">
+            TESTING MODE USE FACEBOOK LOGIN OR USE USERNAME: CompetentCoder PASSWORD: nad298
+        </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -27,6 +75,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/facebook.js"></script>
+</body>
 
-  </body>
 </html>

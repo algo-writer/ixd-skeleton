@@ -27,7 +27,7 @@ exports.viewName = function(req, res){
 		"username":req.query.username,
 	};
 
-	pushUnique(user);
-	console.log(data)
+	data.users.push(user);
+	console.log(data);
 	res.render('index',user);
 }

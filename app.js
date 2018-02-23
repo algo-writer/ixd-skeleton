@@ -29,6 +29,9 @@ var yourparameters = require('./routes/yourparameters');
 var details = require('./routes/details');
 var fparameters2 = require('./routes/fparameters2');
 var tips = require('./routes/tips');
+var index2 = require('./routes/mainpage2');
+var details2 = require('./routes/details2');
+var yourparameters2 = require('./routes/yourparameters2');
 
 // Example route
 // var user = require('./routes/user');
@@ -55,7 +58,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', index.view);
+app.get('/', login.viewLogin);
 app.get('/index', index.viewName);
 app.get('/function1', function1.viewFunction1);
 app.get('/function2', function2.viewFunction2);
@@ -77,7 +80,13 @@ app.get('/yourparameters', yourparameters.viewYourParameters);
 app.get('/details', details.viewDetails);
 app.get('/fparameters2', fparameters2.viewFparameters2);
 app.get('/tips', tips.viewTips);
-app.get('')
+app.get('/mainpage2', index2.viewMainPage);
+app.get('/add', yourparameters.addParameter);
+app.get('/add2', fparameters.addParameter);
+app.get('/details2', details2.viewDetails);
+app.get('/yourparameters2', yourparameters2.viewYourParameters);
+app.get('/add3', yourparameters2.addParameter);
+app.get('/add5', index2.addStep)
 // Example route
 // app.get('/users', user.list);
 

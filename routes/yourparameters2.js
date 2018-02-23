@@ -1,7 +1,7 @@
-var data = require("../parameters.json");
+var data = require("../parameters2.json");
 
 exports.viewYourParameters = function(req, res){
-    res.render('yourparameters', data);
+    res.render('yourparameters2', data);
 };
 
 exports.addParameter = function(req,res){
@@ -10,5 +10,5 @@ exports.addParameter = function(req,res){
     var newJson = {"type": newType, "name": newName};
     console.log(newJson);
     data.parameters.push(newJson);
-    res.render('yourparameters', data);
+    res.render('yourparameters2', data);
 }

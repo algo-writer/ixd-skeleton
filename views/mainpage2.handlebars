@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <!--Added styling to this page in mainPage.css-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mainPage.css">
+
+    <style>
+    </style>
+</head>
+
+<body>
+<div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="myDIV" class="header">
+    <h2 style="margin:5px">My Algorithm</h2>
+    <form>
+    <input type="text" id="myInput" style="width: 80%" placeholder="Next Step" name="step">
+    <button class="addBtn" formaction="add5">Add</button>
+    </form>
+</div>
+
+<div>
+    <button class="button"><a href = "details2">Algorithm Details</a></button>
+    <button class="button"><a href="yourparameters2">Your Parameters</a></button>
+    <button class="button"><a href="tips">Quick Tips</a> </button>
+</div>
+<ul id="myUL">
+    <div contenteditable="true">
+        <li>Here is where you write all the steps in your algorithm!</li>
+        <li class="closeable">Try to be specific and think "line by line" how your code should work</li>
+        <li class="closeable">You can add, delete, and edit steps</li>
+        {{#each save}}
+            <li>{{step}}</li>
+        {{/each}}
+
+        <!--<li class="checked closeable">Not sure you want to delete a step? Just cross it out by tapping the line!</li> -->
+
+    </div>
+</ul>
+
+<script src="../js/mainPage.js"></script>
+
+<form>
+    <button type="submit" class="button" formaction="index">Save and Quit</button>
+    <button type="submit" class="button" formaction="suggestions">See Recommendations</button>
+</form>
+
+</body>
+
+</html>
