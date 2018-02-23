@@ -17,14 +17,12 @@ function cbf(result) {
           initialCodeArray.push(userInput[i]);
           suggArray.push(result.sugg[j].suggestions);
           initialCodeArrayString += userInput[i] + '<br>';
-          suggArrayString += result.sugg[j].english + '<br>';
-          $("#suggArray").html(initialCodeArrayString);
-          $("#initialCodeArray").html(suggArrayString);
+          suggArrayString += result.sugg[j].suggestions + '<br>';
         }    
       }
     }
-    document.getElementById('initialCodeArray').innerHTML = initialCodeArray.toString();
-    document.getElementById('suggArray').innerHTML = suggArray.toString();
+    //document.getElementById('initialCodeArray').innerHTML = initialCodeArray.toString();
+    //document.getElementById('suggArray').innerHTML = suggArray.toString();
     $("#suggArray").html(suggArrayString);
     $("#initialCodeArray").html(initialCodeArrayString);
 
@@ -47,12 +45,8 @@ function cbf(result) {
 </head>
 <body>
 <br>
-<br>
-<br>
 <h5><center><b> This is what you typed in: </b></center></h5>
 <h5><center><div id = "initialCodeArray"></div></center></h5>
-<br>
-<br>
 <br>
 <h5><center><b> These are your suggestions: </b></center></h5>
 <h5><center><div id = "suggArray"></div></center></h5>
