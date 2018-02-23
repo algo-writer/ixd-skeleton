@@ -32,20 +32,20 @@ var eachStep = JSON.parse(localStorage.getItem("main"));
 // console.log(mySugg[0].suggestions);
 
 $.get("/suggestions", callBackFn);
-//var dataSuggs = require("../suggestions.json");
-// console.log("rednering data" + eachStep);
-// for (var i = 0; i < eachStep.length; i++){
-//   console.log(i);
-//   console.log(eachStep[i]);
-//   for (var j = 0; j < sugg.length; j++){
-//     if (sugg[i].english.includes(eachStep[i])){
-//       document.write(sugg[i].suggestions);
-//     }
-//   }
-// }
+// //var dataSuggs = require("../suggestions.json");
+// // console.log("rednering data" + eachStep);
+// // for (var i = 0; i < eachStep.length; i++){
+// //   console.log(i);
+// //   console.log(eachStep[i]);
+// //   for (var j = 0; j < sugg.length; j++){
+// //     if (sugg[i].english.includes(eachStep[i])){
+// //       document.write(sugg[i].suggestions);
+// //     }
+// //   }
+// // }
 
 function callBackFn(result){
-  console.log(result);
+  console.log("Hello ");
 }
 
   </script>

@@ -1,6 +1,5 @@
 //const { newElement, myStepsArray } = require("./mainPage");
-var dataSteps = require("../steps.json")
-//var dataSugg = require("../suggestions.json")
+var dataSugg = require("../suggestions.json")
 
 
 /*
@@ -8,11 +7,11 @@ var dataSteps = require("../steps.json")
  */
 
 exports.viewSuggestions = function(req, res){
-  res.render('suggestions', dataSteps);
+  res.render('suggestions', dataSugg);
+  console.log("Hello" + dataSugg);
 };
 
 
-var givenSugg;
 
 
 //var dataString = localStorage.getItem("main");
