@@ -2,7 +2,7 @@
     "sugg": [
       {
         "english": "add",
-        "suggestions": "int x, y, z;      z = x + y;"
+        "suggestions": "int x, y, z; z = x + y;"
       },
 
         {

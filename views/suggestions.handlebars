@@ -6,18 +6,28 @@
 $.get("/getSuggs",cbf);
 
 function cbf(result) {
+  var initialCodeArray = [];
   var suggArray = [];
+  var initialCodeArrayString = "";
+  var suggArrayString = "";
   var userInput = JSON.parse(sessionStorage.getItem('main'));
   for (var i = 0; i < userInput.length; i++) {
     for (var j = 0; j < result.sugg.length; j++) {
-        if (userInput[i].includes(result.sugg[j].english)){
+        if ( userInput[i].includes(result.sugg[j].english) ) {
+          initialCodeArray.push(userInput[i]);
           suggArray.push(result.sugg[j].suggestions);
-          console.log(suggArray);
+          initialCodeArrayString += userInput[i] + '<br>';
+          suggArrayString += result.sugg[j].english + '<br>';
+          $("#suggArray").html(initialCodeArrayString);
+          $("#initialCodeArray").html(suggArrayString);
         }    
       }
     }
+    document.getElementById('initialCodeArray').innerHTML = initialCodeArray.toString();
     document.getElementById('suggArray').innerHTML = suggArray.toString();
-    $("#suggArray").html(suggArray.toString());
+    $("#suggArray").html(suggArrayString);
+    $("#initialCodeArray").html(initialCodeArrayString);
+
  }
 </script>
 
@@ -36,12 +46,21 @@ function cbf(result) {
 
 </head>
 <body>
+<br>
+<br>
+<br>
+<h5><center><b> This is what you typed in: </b></center></h5>
+<h5><center><div id = "initialCodeArray"></div></center></h5>
+<br>
+<br>
+<br>
+<h5><center><b> These are your suggestions: </b></center></h5>
 <h5><center><div id = "suggArray"></div></center></h5>
  </div>
 
  <!--     <button  onclick="giveSugg()">See Suggestions"</button> -->
- <button><a href="mainPage">Back to Steps</a></button>
- <button><a href="index">Home</a></button>
+<button><center><a href="mainPage">Back to Steps</a></center></button>
+<button><center><a href="index">Home</a></center></button>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
