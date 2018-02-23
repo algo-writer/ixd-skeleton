@@ -14,6 +14,10 @@ exports.viewSuggestions = function(req, res){
 
 var givenSugg;
 
+
+//var dataString = localStorage.getItem("main");
+
+
 // function giveSugg(){
 // 	for (var item in dataSteps.codeRecs){
 // 		var stepWord = JSON.stringify(dataSteps.codeRecs[item]);

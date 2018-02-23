@@ -28,21 +28,30 @@ list.addEventListener('click', function(ev) {
 }, false);
 
 var myStepsArray = [];
+var storageArray = [];
+
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
   li.contentEditable = "true";
   var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);
-  myStepsArray.push(inputValue);
+  myStepsArray[0] = inputValue;
+  appendToStorage("main", myStepsArray);
+  //const data = JSON.parse(localStorage.getItem('main'));
   console.log(myStepsArray);
+  console.log(sessionStorage);
+
+
 
   li.appendChild(t);
   if (inputValue === '') {
     alert("You must write something!");
-  } else {
+  } 
+  else {
     document.getElementById("myUL").appendChild(li);
   }
+  
   document.getElementById("myInput").value = "";
 
   var span = document.createElement("SPAN");
@@ -58,3 +67,22 @@ function newElement() {
     }
   }
 }
+
+function appendToStorage(name, data){
+    var old = sessionStorage.getItem(name);
+    if(old === null){
+      sessionStorage.setItem("main", JSON.stringify(data));
+    } 
+    else{
+      var array = JSON.parse(sessionStorage.getItem(name));
+      array = array.concat(data);
+      sessionStorage.setItem("main", JSON.stringify(array));
+    }
+
+}
+
+// function appendToStorage2(name, data, array){
+//     array.push(data);
+//     sessionStorage.setItem("main", JSON.stringify(array));
+
+// }

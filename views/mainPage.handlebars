@@ -2,6 +2,32 @@
 <html>
 <head>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+    window.onload = function() {
+      //var stepArray = [];
+      var eachStepArray = JSON.parse(sessionStorage.getItem("main")); //change localStorage strings into array
+      console.log(eachStepArray);
+
+      for (var i = 0; i < eachStepArray.length; i++) {
+        $('#blah').append('<li class="closeable">' + eachStepArray[i] + '</li>');
+        //localStoarge.setItem("main", eachStepArray[i]);
+      }
+    }
+
+    // window.onbeforeunload = function(){
+    //   var eachStep = JSON.parse(localStorage.getItem("main"));
+    //   console.log(localStorage);
+    //   for (var i = 0; i < eachStep.length; i++){
+    //     sessionStorage.setItem("input", eachStep[i]);
+    //   }
+    //   console.log(sessionStorage);
+    // }
+
+
+  </script>
+
 
 <!--Added styling to this page in mainPage.css-->
 <meta charset="utf-8">
@@ -49,7 +75,7 @@
         <button class="button"><a href="tips">Quick Tips</a> </button>
     </div>
 <ul id="myUL">
-    <div contenteditable="true">
+    <div id="blah" contenteditable="true">
         <li>Here is where you write all the steps in your algorithm!</li>
         <li class="closeable">Try to be specific and think "line by line" how your code should work</li>
         <li class="closeable">You can add, delete, and edit steps</li>
