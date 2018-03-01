@@ -1,0 +1,8 @@
+.buttonSeeRec {
+    background-color: #85e085;
+    border: none;
+    color: white; /* means color of the text */
+    padding: 10px 20px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left;
+}
