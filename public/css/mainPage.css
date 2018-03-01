@@ -79,7 +79,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #85e085; /*#36cdf4;*/
+  background-color: lightblue; /*#36cdf4;*/
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -138,7 +138,7 @@ input[type=submit] {
 }
 
 .buttonSeeRec {
-    background-color: #85e085; /* Blue=#42b9f4 */
+    background-color: lightblue; /* Blue=#42b9f4 */
     border: none;
     color: white; /* means color of the text */
     padding: 10px 20px;

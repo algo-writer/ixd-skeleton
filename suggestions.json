@@ -812,6 +812,10 @@
       {
         "english": "reversing a string",
         "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "Hello",
+        "suggestions": "Welcome to Algo-writer! If you need help, click on Quick Tips on the previous page."
       }
 
   ]   

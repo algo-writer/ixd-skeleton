@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c992e805-0044-404a-85aa-30e6582b7167" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/details.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/public/css/mainPage.css" afterPath="$PROJECT_DIR$/public/css/mainPage.css" />
+      <change beforePath="$PROJECT_DIR$/public/css/navb.css" afterPath="$PROJECT_DIR$/public/css/navb.css" />
+      <change beforePath="$PROJECT_DIR$/suggestions.json" afterPath="$PROJECT_DIR$/suggestions.json" />
+      <change beforePath="$PROJECT_DIR$/views/afterhome.handlebars" afterPath="$PROJECT_DIR$/views/afterhome.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/details.handlebars" afterPath="$PROJECT_DIR$/views/details.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/details2.handlebars" afterPath="$PROJECT_DIR$/views/details2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/finished.handlebars" afterPath="$PROJECT_DIR$/views/finished.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/fparameters.handlebars" afterPath="$PROJECT_DIR$/views/fparameters.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/fparameters2.handlebars" afterPath="$PROJECT_DIR$/views/fparameters2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/freturn.handlebars" afterPath="$PROJECT_DIR$/views/freturn.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function1.handlebars" afterPath="$PROJECT_DIR$/views/function1.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function2.handlebars" afterPath="$PROJECT_DIR$/views/function2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function3.handlebars" afterPath="$PROJECT_DIR$/views/function3.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/function4.handlebars" afterPath="$PROJECT_DIR$/views/function4.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/great.handlebars" afterPath="$PROJECT_DIR$/views/great.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/help1.handlebars" afterPath="$PROJECT_DIR$/views/help1.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/help2.handlebars" afterPath="$PROJECT_DIR$/views/help2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/index.handlebars" afterPath="$PROJECT_DIR$/views/index.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/login.handlebars" afterPath="$PROJECT_DIR$/views/login.handlebars" />
       <change beforePath="$PROJECT_DIR$/views/mainPage.handlebars" afterPath="$PROJECT_DIR$/views/mainPage.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/mainpage2.handlebars" afterPath="$PROJECT_DIR$/views/mainpage2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/saves.handlebars" afterPath="$PROJECT_DIR$/views/saves.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/settings.handlebars" afterPath="$PROJECT_DIR$/views/settings.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/suggestions.handlebars" afterPath="$PROJECT_DIR$/views/suggestions.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/suggestions2.handlebars" afterPath="$PROJECT_DIR$/views/suggestions2.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/tips.handlebars" afterPath="$PROJECT_DIR$/views/tips.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/yourparameters.handlebars" afterPath="$PROJECT_DIR$/views/yourparameters.handlebars" />
+      <change beforePath="$PROJECT_DIR$/views/yourparameters2.handlebars" afterPath="$PROJECT_DIR$/views/yourparameters2.handlebars" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +45,58 @@
       <file leaf-file-name="mainPage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/mainPage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+            <state relative-caret-position="282">
+              <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suggestions.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/suggestions.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suggestions2.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/suggestions2.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yourparameters.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/yourparameters.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yourparameters2.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/yourparameters2.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tips.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/tips.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -27,26 +105,38 @@
       <file leaf-file-name="mainPage.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/mainPage.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suggestions.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/suggestions.handlebars">
+      <file leaf-file-name="mainpage2.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/mainpage2.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="907">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saves.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/saves.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/settings.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -75,6 +165,10 @@
       <find>blue</find>
       <find>submit</find>
       <find>div</find>
+      <find>conta</find>
+      <find>btn-l</find>
+      <find>btn-lg</find>
+      <find>btn-lg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,11 +196,35 @@
         <option value="$PROJECT_DIR$/public/js/mainPage.js" />
         <option value="$PROJECT_DIR$/routes/mainPage.js" />
         <option value="$PROJECT_DIR$/routes/suggestions.js" />
-        <option value="$PROJECT_DIR$/views/mainpage2.handlebars" />
         <option value="$PROJECT_DIR$/public/css/suggestions.css" />
+        <option value="$PROJECT_DIR$/suggestions.json" />
+        <option value="$PROJECT_DIR$/public/css/navb.css" />
+        <option value="$PROJECT_DIR$/public/css/details.css" />
+        <option value="$PROJECT_DIR$/public/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/views/login.handlebars" />
+        <option value="$PROJECT_DIR$/views/afterhome.handlebars" />
+        <option value="$PROJECT_DIR$/views/details.handlebars" />
+        <option value="$PROJECT_DIR$/views/details2.handlebars" />
+        <option value="$PROJECT_DIR$/views/finished.handlebars" />
+        <option value="$PROJECT_DIR$/views/fparameters.handlebars" />
+        <option value="$PROJECT_DIR$/views/fparameters2.handlebars" />
+        <option value="$PROJECT_DIR$/views/freturn.handlebars" />
+        <option value="$PROJECT_DIR$/views/function1.handlebars" />
+        <option value="$PROJECT_DIR$/views/function2.handlebars" />
+        <option value="$PROJECT_DIR$/views/function3.handlebars" />
+        <option value="$PROJECT_DIR$/views/function4.handlebars" />
+        <option value="$PROJECT_DIR$/views/great.handlebars" />
+        <option value="$PROJECT_DIR$/views/help1.handlebars" />
+        <option value="$PROJECT_DIR$/views/help2.handlebars" />
+        <option value="$PROJECT_DIR$/views/index.handlebars" />
+        <option value="$PROJECT_DIR$/views/mainpage2.handlebars" />
+        <option value="$PROJECT_DIR$/views/saves.handlebars" />
+        <option value="$PROJECT_DIR$/views/settings.handlebars" />
         <option value="$PROJECT_DIR$/views/suggestions.handlebars" />
         <option value="$PROJECT_DIR$/views/suggestions2.handlebars" />
-        <option value="$PROJECT_DIR$/suggestions.json" />
+        <option value="$PROJECT_DIR$/views/tips.handlebars" />
+        <option value="$PROJECT_DIR$/views/yourparameters.handlebars" />
+        <option value="$PROJECT_DIR$/views/yourparameters2.handlebars" />
         <option value="$PROJECT_DIR$/views/mainPage.handlebars" />
         <option value="$PROJECT_DIR$/public/css/mainPage.css" />
       </list>
@@ -133,9 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +291,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +433,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23489426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23791541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -338,19 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/pages/afterhome.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/cfields.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/class1.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/class2.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/function4.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/great.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/function2.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/function1.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/freturn.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/fparameters.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/finished.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/cparameters.html" />
-    <entry file="file://$PROJECT_DIR$/public/pages/class4.html" />
     <entry file="file://$PROJECT_DIR$/public/pages/class3.html" />
     <entry file="file://$PROJECT_DIR$/public/pages/suggestions.html" />
     <entry file="file://$PROJECT_DIR$/public/js/mainPage2.js">
@@ -414,24 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/suggestions.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/suggestions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/suggestions2.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -442,155 +533,267 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/afterhome.handlebars">
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/suggestions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suggestions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12255">
+          <caret line="817" column="47" lean-forward="false" selection-start-line="817" selection-start-column="47" selection-end-line="817" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/great.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/navb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/details.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56745">
+          <caret line="3783" column="21" lean-forward="false" selection-start-line="3783" selection-start-column="14" selection-end-line="3783" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/afterhome.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/details.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="246">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/details2.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/finished.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/fparameters.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/fparameters2.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/freturn.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/function1.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/function2.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/function3.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/function4.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/great.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/help1.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/help2.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/yourparameters.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suggestions.json">
+    <entry file="file://$PROJECT_DIR$/views/login.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="334" column="20" lean-forward="true" selection-start-line="334" selection-start-column="20" selection-end-line="334" selection-end-column="20" />
+        <state relative-caret-position="429">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/mainpage2.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="36" column="78" lean-forward="true" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+        <state relative-caret-position="177">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/saves.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/settings.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/suggestions.handlebars">
+    <entry file="file://$PROJECT_DIR$/views/suggestions2.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="219">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tips.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/yourparameters.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/yourparameters2.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/mainPage.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/suggestions.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/mainPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+        <state relative-caret-position="282">
+          <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
           <folding />
         </state>
       </provider>
