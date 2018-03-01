@@ -6,14 +6,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
-    window.onload = function() {
-      var eachStepArray = JSON.parse(sessionStorage.getItem("main")); //change localStorage strings into array
-      console.log(eachStepArray);
-
-      for (var i = 0; i < eachStepArray.length; i++) {
-        $('#blah').append('<li class="closeable">' + eachStepArray[i] + '</li>');
-      }
-    }
     </script>
 
 
@@ -47,13 +39,13 @@
 
 <div id="div" class="btn-group" style="width:100%">
     <div>
-        <button class="button" style="width:33.3%"><a href="details">Algorithm Details</a></button>
+        <button class="buttonTopRow" style="width:33.3%"><a href="details">Algorithm Details</a></button>
     </div>
     <div>
-        <button class="button" style="width:33.3%"><a href="yourparameters">Your Parameters</a></button>
+        <button class="buttonTopRow" style="width:33.3%"><a href="yourparameters">Your Parameters</a></button>
     </div>
     <div>
-        <button class="button" style="width:33.3%"><a href="tips">Quick Tips</a></button>
+        <button class="buttonTopRow" style="width:33.3%"><a href="tips">Quick Tips</a></button>
     </div>
 </div>
 

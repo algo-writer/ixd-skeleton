@@ -137,6 +137,16 @@ input[type=submit] {
     float: left;
 }
 
+.buttonTopRow {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: left;
+    height: 70px;
+}
+
 .buttonSeeRec {
     background-color: lightblue; /* Blue=#42b9f4 */
     border: none;
