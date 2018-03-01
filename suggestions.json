@@ -4,11 +4,30 @@
         "english": "add",
         "suggestions": "int x, y, z; z = x + y;"
       },
-
-        {
+      {
+        "english": "i want to add",
+        "suggestions": "int x, y, z; z = x + y;"
+      },
+      {
+        "english": "I want to add",
+        "suggestions": "int x, y, z; z = x + y;"
+      },
+      {
+        "english": "I want to add vars",
+        "suggestions": "int x, y, z; z = x + y;"
+      },
+      {
+        "english": "I want to add variables",
+        "suggestions": "int x, y, z; z = x + y;"
+      },
+      {
+        "english": "add the variables I created",
+        "suggestions": "int x, y, z; z = x + y;"
+      },
+      {
           "english": "add numbers",
           "suggestions": "int x, y, z;\nz = x + y;"
-        },
+      },
 
       {
           "english": "add two numbers",
@@ -44,7 +63,18 @@
           "english": "add two integers",
           "suggestions": "int x, y, z;\nz = x + y;"
       },
-
+      {
+        "english": "sum",
+        "suggestions": "int x, y, z;\nz = x + y;"
+      },
+      {
+        "english": "find the sum",
+        "suggestions": "int x, y, z;\nz = x + y;"
+      },
+      {
+        "english": "sum everything up",
+        "suggestions": "int x, y, z;\nz = x + y;"
+      },
       {
           "english": "subtract",
           "suggestions": "int x, y, z;\nz = x - y;"
@@ -204,7 +234,18 @@
        "english": "println",
        "suggestions": "int x = 2;\nSystem.out.println(x);"
     },
-
+      {
+        "english": "print to console",
+        "suggestions": "int x = 2;\nSystem.out.println(x);"
+      },
+      {
+        "english": "print character one by one",
+        "suggestions": "char[] try1= input.toCharArray(); for (int i=try1.length-1;i>=0;i--) System.out.print(try1[i]);"
+      },
+      {
+        "english": "print the character one by one",
+        "suggestions": "int x = 2;\nSystem.out.println(x);"
+      },
     {
        "english": "scanner",
        "suggestions": "Scanner scanner = new Scanner();"
@@ -229,11 +270,50 @@
        "english": "make a for loop",
        "suggestions": "for (int i = 0, i < 10, i++){}"
     },
-
-    {
+      {
+        "english": "scan the the string from end to start",
+        "suggestions": "for (int i = 0, i < string1.length-1, i++){}"
+      },
+      {
+        "english": "create a for loop",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
+        "english": "traverse a loop",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
+        "english": "create a for-loop",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
+        "english": "I want to make a for loop",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
+        "english": "i want to make a for loop",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
+        "english": "initialize a for loop",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
        "english": "make a for loop",
        "suggestions": "for (int i = 0, i < 10, i++){}"
-    },
+      },
+      {
+        "english": "loop on the array",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
+        "english": "loop on the values",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
+      {
+        "english": "loop on array.length",
+        "suggestions": "for (int i = 0, i < 10, i++){}"
+      },
 
     {
        "english": "for loop",
@@ -260,35 +340,95 @@
        "suggestions": "byte byteValue = 1;"
     },
 
+      {
+        "english": "create a var",
+        "suggestions": "int intValue = 1;"
+      },
+
+      {
+        "english": "create a variable",
+        "suggestions": "int intValue = 1;"
+      },
+      {
+        "english": "create a int var",
+        "suggestions": "int intValue = 1;"
+      },
+      {
+        "english": "create an int var",
+        "suggestions": "int intValue = 1;"
+      },
+      {
+        "english": "create an int variable",
+        "suggestions": "int intValue = 1;"
+      },
     {
        "english": "create a short",
        "suggestions": "short shortValue = 1;"
     },
-
+      {
+        "english": "create a short var",
+        "suggestions": "short shortValue = 1;"
+      },
+      {
+        "english": "create a short variable",
+        "suggestions": "short shortValue = 1;"
+      },
     {
        "english": "create a long",
        "suggestions": "long longValue = 12345;"
     },
-
+      {
+        "english": "create a long var",
+        "suggestions": "long longValue = 12345;"
+      },
+      {
+        "english": "create a long variable",
+        "suggestions": "long longValue = 12345;"
+      },
     {
        "english": "create a float",
        "suggestions": "float floatValue = 2.5;"
     },
-
+      {
+        "english": "create a float var",
+        "suggestions": "float floatValue = 2.5;"
+      },
+      {
+        "english": "create a float variable",
+        "suggestions": "float floatValue = 2.5;"
+      },
     {
        "english": "create a char",
        "suggestions": "char charValue = 'a';"
     },
-
+      {
+        "english": "create a char var",
+        "suggestions": "char charValue = 'a';"
+      },
+      {
+        "english": "create a char variable",
+        "suggestions": "char charValue = 'a';"
+      },
     {
        "english": "create a boolean",
        "suggestions": "boolean booleanValue = true;\nboolean booleanValue = false;"
     },
-
+      {
+        "english": "create a bool",
+        "suggestions": "boolean booleanValue = true;\nboolean booleanValue = false;"
+      },
     {
        "english": "create a double",
        "suggestions": "double doubleValue = 2.5;"
     },
+      {
+        "english": "create a double var",
+        "suggestions": "double doubleValue = 2.5;"
+      },
+      {
+        "english": "create a double variable",
+        "suggestions": "double doubleValue = 2.5;"
+      },
 
     {
        "english": "boolean",
@@ -299,7 +439,10 @@
        "english": "create an if-statement",
        "suggestions": "int x = 5;\nif (x < 10){\n  x++;\n}"
     },
-
+      {
+        "english": "create an if statement",
+        "suggestions": "int x = 5;\nif (x < 10){\n  x++;\n}"
+      },
     {
        "english": "create if-statment",
        "suggestions": "int x = 5;\nif (x < 10){\n  x++;\n}"
@@ -469,16 +612,67 @@
        "english": "iterate",
        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nfor (int i = 0, i < intArray.length, i++){}"
     },
-
+      {
+        "english": "iterating through an array",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nfor (int i = 0, i < intArray.length, i++){}"
+      },
+      {
+        "english": "iterate thru an array",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nfor (int i = 0, i < intArray.length, i++){}"
+      },
+      {
+        "english": "iterate the array",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nfor (int i = 0, i < intArray.length, i++){}"
+      },
+      {
+        "english": "iterate thru array",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nfor (int i = 0, i < intArray.length, i++){}"
+      },
+      {
+        "english": "iterate through the array",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nfor (int i = 0, i < intArray.length, i++){}"
+      },
     {
        "english": "max",
        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint maxNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\nif(intArray[i] > maxNumber){\n    maxNumber = intArray[i];\n}\n}"
     },
+      {
+        "english": "find max",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint maxNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\nif(intArray[i] > maxNumber){\n    maxNumber = intArray[i];\n}\n}"
+      },
+      {
+        "english": "find the max",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint maxNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\nif(intArray[i] > maxNumber){\n    maxNumber = intArray[i];\n}\n}"
+      },
+      {
+        "english": "find the maximum",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint maxNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\nif(intArray[i] > maxNumber){\n    maxNumber = intArray[i];\n}\n}"
+      },
+      {
+        "english": "Find the maximum",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint maxNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\nif(intArray[i] > maxNumber){\n    maxNumber = intArray[i];\n}\n}"
+      },
 
     {
        "english": "min",
        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint minNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\n  if(intArray[i] < minNumber){\n    minNumber = intArray[i];\n}\n}"
     },
+      {
+        "english": "find min",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint minNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\n  if(intArray[i] < minNumber){\n    minNumber = intArray[i];\n}\n}"
+      },
+      {
+        "english": "find the min",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint minNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\n  if(intArray[i] < minNumber){\n    minNumber = intArray[i];\n}\n}"
+      },
+      {
+        "english": "find the minimum",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint minNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\n  if(intArray[i] < minNumber){\n    minNumber = intArray[i];\n}\n}"
+      },
+      {
+        "english": "Find the minimum",
+        "suggestions": "int[] intArray = new int[]{1, 2, 3, 4, 5};\nint minNumber = intArray[0];\nfor (int i = 0, i < intArray.length, i++){\n  if(intArray[i] < minNumber){\n    minNumber = intArray[i];\n}\n}"
+      },
 
     {
        "english": "switch",
@@ -538,6 +732,87 @@
     {
       "english": "replace",
       "suggestions": "replace( \"t\", T );"
-    }
+    },
+      {
+        "english": "return true",
+        "suggestions": "boolean myString = true; return myString;"
+      },
+      {
+        "english": "return True",
+        "suggestions": "boolean myString = true; return myString;"
+      },
+      {
+        "english": "return False",
+        "suggestions": "boolean myString = false; return myString;"
+      },
+      {
+        "english": "return false",
+        "suggestions": "boolean myString = false; return myString;"
+      },
+      {
+        "english": "return the var",
+        "suggestions": "return <name of var>"
+      },
+      {
+        "english": "return my var",
+        "suggestions": "return <name of var>"
+      },
+      {
+        "english": "return the variable",
+        "suggestions": "return <name of var>"
+      },
+      {
+        "english": "reverse a string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "Reverse a string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "Reverse my string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reverse my string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "Reverse given string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reverse given string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reverse string1",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "i need to reverse a string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reverse the string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reverse string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reverse String",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reverse a string in java",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      },
+      {
+        "english": "reversing a string",
+        "suggestions": "new StringBuilder(myVar).reverse().toString()"
+      }
+
   ]   
 }

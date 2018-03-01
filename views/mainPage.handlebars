@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <script>
+    <script>
     window.onload = function() {
+<<<<<<< HEAD
      //  var eachStepArraySmall = [];
      //  var eachStepArray = [];
      //  for (var c = 0; c < sessionStorage.length; c++){
@@ -42,28 +44,36 @@
     console.log($('#test').textContent);
 
 </script>
+=======
+      var eachStepArray = JSON.parse(sessionStorage.getItem("main")); //change localStorage strings into array
+      console.log(eachStepArray);
+
+      for (var i = 0; i < eachStepArray.length; i++) {
+        $('#blah').append('<li class="closeable">' + eachStepArray[i] + '</li>');
+      }
+    }
+    </script>
+>>>>>>> 3a0cc30d7eaab83013c63b00081658b3627ccec9
 
 
-<!--Added styling to this page in mainPage.css-->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/bootstrap.css">
-<link rel="stylesheet" href="../css/bootstrap-theme.css">
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/mainPage.css">
-
-<style>
-</style>
+    <!--Added styling to this page in mainPage.css-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mainPage.css">
+    <link rel="stylesheet" href="/css/navb.css">
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
-                </div>
+<div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
             </div>
+<<<<<<< HEAD
         </nav>
     </div>
     <div id="myDIV" class="header">
@@ -71,12 +81,22 @@
         <input type="text" id="myInput" placeholder="Next Step">
         <span onclick="newElement()" class="addBtn">Add</span>
     </div>
+=======
+        </div>
+    </nav>
+</div>
+<div id="myDIV" class="header">
+    <h2 style="margin:5px">My Algorithm</h2>
+    <input type="text" id="myInput" placeholder="Next Step">
+    <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+>>>>>>> 3a0cc30d7eaab83013c63b00081658b3627ccec9
 
+<div id="div" class="btn-group" style="width:100%">
     <div>
-        <button class="button"><a href = "details">Algorithm Details</a></button>
-        <button class="button"><a href="yourparameters">Your Parameters</a></button><br>
-        <button class="button"><a href="tips">Quick Tips</a> </button>
+        <button class="button" style="width:33.3%"><a href="details">Algorithm Details</a></button>
     </div>
+<<<<<<< HEAD
     <ul id="myUL">
         <div id="blah" contenteditable="true">
             <li>Here is where you write all the steps in your algorithm!</li>
@@ -93,6 +113,30 @@
         <button type="submit" class="button" formaction="index">Save and Quit</button>
         <button type="submit" class="button" formaction="suggestions">See Recommendations</button>
     </form>
+=======
+    <div>
+        <button class="button" style="width:33.3%"><a href="yourparameters">Your Parameters</a></button>
+    </div>
+    <div>
+        <button class="button" style="width:33.3%"><a href="tips">Quick Tips</a></button>
+    </div>
+</div>
+
+<ul id="myUL">
+    <div id="blah" contenteditable="true">
+        <li>Click the 'Add button' at the top to add your first step!</li>
+        <!--<li class="closeable">You can add, delete, and edit steps</li>-->
+        <!--<li class="checked closeable">Not sure you want to delete a step? Just cross it out by tapping the line!</li> -->
+    </div>
+</ul>
+
+<script src="../js/mainPage.js"></script>
+
+<form>
+    <button type="submit" class="button" style="width:50%" formaction="index">Save and Quit</button>
+    <button type="submit" class="buttonSeeRec" style="width:50%" formaction="suggestions"><span>See Recommendations</span></button>
+</form>
+>>>>>>> 3a0cc30d7eaab83013c63b00081658b3627ccec9
 
 </body>
 

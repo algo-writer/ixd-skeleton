@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+      <link rel="stylesheet" href="/css/navb.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+
 $.get("/getSuggs",cbf);
 
 function cbf(result) {
@@ -10,17 +13,20 @@ function cbf(result) {
   var suggArray = [];
   var initialCodeArrayString = "";
   var suggArrayString = "";
+
   var userInput = JSON.parse(sessionStorage.getItem('main'));
   for (var i = 0; i < userInput.length; i++) {
     for (var j = 0; j < result.sugg.length; j++) {
         if ( userInput[i].includes(result.sugg[j].english) ) {
-          initialCodeArray.push(userInput[i]);
-          suggArray.push(result.sugg[j].suggestions);
+          // initialCodeArray.push(userInput[i]);
+          // suggArray.push(result.sugg[j].suggestions);
           initialCodeArrayString += userInput[i] + '<br>';
           suggArrayString += result.sugg[j].suggestions + '<br>';
+          console.log("why printing twice" + result.sugg[j].suggestions);
         }    
       }
     }
+
     //document.getElementById('initialCodeArray').innerHTML = initialCodeArray.toString();
     //document.getElementById('suggArray').innerHTML = suggArray.toString();
     $("#suggArray").html(suggArrayString);
@@ -29,7 +35,6 @@ function cbf(result) {
  }
 </script>
 
-<br>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -39,17 +44,27 @@ function cbf(result) {
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 
 
-<h1><center>Here's what we'd recommend you doing.</center></h1>
 
     <link rel="stylesheet" href="../css/mainPage.css">
 </head>
 <body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
+            </div>
+        </div>
+    </nav>  
+    <h1><center>Here's what we'd recommend you doing.</center></h1>
+
 <br>
-<h5><center><b> This is what you typed in: </b></center></h5>
+<h5><center><b> Here are some steps you typed in: </b></center></h5>
 <h5><center><div id = "initialCodeArray"></div></center></h5>
 <br>
-<h5><center><b> These are your suggestions: </b></center></h5>
+<h5><center><b> Here are some suggestions: </b></center></h5>
 <h5><center><div id = "suggArray"></div></center></h5>
+
  </div>
 
  <!--     <button  onclick="giveSugg()">See Suggestions"</button> -->

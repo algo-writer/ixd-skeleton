@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<center>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,26 +10,37 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
+      <link rel="stylesheet" href="/css/navb.css">
 
+
+    <link rel="stylesheet" href="../css/mainPage.css">
+
+</head>
+<body>
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
+            </div>
+        </div>
+    </nav>  
     <h1><center>Here's what we'd recommend you doing.</center></h1>
     <h4><center>(Note that these are example recommendations and they will not change for this example algorithm!)</center></h4>
 
-    <h5><center><b> This is what you typed in: </b></center></h5>
+    <h5><center><b> Here are some steps you typed in: </b></center></h5>
     <h5><center>create an array</center></h5>
     <h5><center>fill in the array with random number</center></h5>
     <h5><center>create a for loop to loop array</center></h5>
     <h5><center>add up all numbers in the array</center></h5>
 <br>
-    <h5><center><b> These are your suggestions: </b></center></h5>
+    <h5><center><b> Here are some suggestions: </b></center></h5>
     <h5><center>int[] intArray = new int[3];</center></h5>
     <h5><center>Random randomGenerator = new Random();</center></h5>
     <h5><center>for (int i = 0; i < intArray.length; i++)</center></h5>
     <h5><center>sum = sum + array[i];</center></h5>
-    <link rel="stylesheet" href="../css/mainPage.css">
+    <h5><center><div id = "suggArray"></div></center></h5>
 
-</head>
-<body>
-<h5><center><div id = "suggArray"></div></center></h5>
+
 </div>
 
 <!--     <button  onclick="giveSugg()">See Suggestions"</button> -->
