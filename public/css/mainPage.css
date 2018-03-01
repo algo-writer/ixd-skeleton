@@ -20,7 +20,7 @@ ul li {
   position: relative;
   padding: 12px 8px 12px 40px;
   list-style-type: none;
-  background: #eee
+  background: #eee /* gray */
   font-size: 18px;
   transition: 0.2s;
 
@@ -49,6 +49,7 @@ ul li.checked {
 }
 
 /* Add a "checked" mark when clicked on */
+/*
 ul li.checked::before {
   content: '';
   position: absolute;
@@ -61,6 +62,7 @@ ul li.checked::before {
   height: 15px;
   width: 7px;
 }
+*/
 
 /* Style the close button */
 .close {
@@ -142,6 +144,31 @@ input[type=submit] {
     padding: 10px 20px;
     cursor: pointer; /* Pointer/hand icon */
     float: left;
+}
+
+.buttonSeeRec span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonSeeRec span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonSeeRec:hover span {
+  padding-right: 25px;
+}
+
+.buttonSeeRec:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .btn-group {
