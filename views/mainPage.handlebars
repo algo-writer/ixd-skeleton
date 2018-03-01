@@ -47,10 +47,11 @@
 
 <div id="myDIV" class="header">
     <h2 style="margin:5px">My Algorithm</h2>
+{{#unless viewAlt}}
     <input type="text" id="myInput" placeholder="Next Step">
     <span onclick="newElement()" class="addBtn">Add</span>
+{{/unless}}
 </div>
-
 <div id="div" class="btn-group" style="width:100%">
     <div>
         <button class="buttonTopRow" style="width:33.3%"><a href="details">Details</a></button>
@@ -71,6 +72,13 @@
     </div>
 </ul>
 
+
+{{#if viewAlt}}
+    <input type="text" id="myInput" placeholder="Next Step">
+    <span onclick="newElement()" class="addBtn" >
+        <span class="glyphicon glyphicon-plus"></span>
+    </span>
+{{/if}}
 <script src="../js/mainPage.js"></script>
 
 <form>
