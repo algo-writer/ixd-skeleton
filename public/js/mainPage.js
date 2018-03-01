@@ -37,7 +37,7 @@ function newElement() {
   var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);
   myStepsArray[0] = inputValue;
-  appendToStorage("main", myStepsArray);
+  appendToStorage(myStepsArray);
   //const data = JSON.parse(localStorage.getItem('main'));
   console.log(myStepsArray);
   console.log(sessionStorage);
@@ -68,17 +68,22 @@ function newElement() {
   }
 }
 
-function appendToStorage(name, data){
-    var old = sessionStorage.getItem(name);
-    if(old === null){
-      sessionStorage.setItem("main", JSON.stringify(data));
-    } 
-    else{
-      var array = JSON.parse(sessionStorage.getItem(name));
-      array = array.concat(data);
-      sessionStorage.setItem("main", JSON.stringify(array));
-    }
+// function appendToStorage(name, data){
+//     var old = sessionStorage.getItem(name);
+//     if(old === null){
+//       sessionStorage.setItem("main", JSON.stringify(data));
+//     } 
+//     else{
+//       var array = JSON.parse(sessionStorage.getItem(name));
+//       array = array.concat(data);
+//       sessionStorage.setItem("main", JSON.stringify(array));
+//     }
 
+// }
+
+function appendToStorage(data){
+  sessionStorage.setItem("key" + sessionStorage.length, data);
+  
 }
 
 // function appendToStorage2(name, data, array){
