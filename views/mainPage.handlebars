@@ -11,6 +11,8 @@
          for (var i = 0; i < sessionStorage.length; i++) {
             $('#blah').append('<li class="closeable" id="edit'+i+'">' + sessionStorage.getItem("key"+i) + '</li>' + '<button class = "btnSave" num="'+i+'">Save</button>');
         }
+
+        console.log(sessionStorage);
     }
     $(document).ready(function(){
         $(".btnSave").click(function(){
