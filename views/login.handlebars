@@ -22,11 +22,8 @@
                 xfbml: true,
                 version: 'v2.8'
             });
-
             FB.AppEvents.logPageView();
-
         };
-
         (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) {
@@ -47,47 +44,44 @@ body {
     background-color: lightblue;
 }
 </style>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
-            </div>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-center navbar-brand" href="#">Algo-writer</a>
         </div>
-    </nav>
-    <form method="get" action="/index" id="form">
+    </div>
+</nav>
+<form method="get" action="/index" id="form">
 
-        <div class="container">
-            <h1><center>Algo-writer</center></h1><br>
-            <h4><center>You write your algorithm in English, and we give you real Java Code Recommendations.</center></h4>
-            <h4><center>Yeah, it's that easy.</center></h4><br>
-            <br>
-            <h4>Login</h4><br>
-            <h4><center>Yeah, it's that easy.</center></h4>
-            <h2>Login</h2>
-            <p class="valid">Valid. Please wait a moment.</p>
-            <p class="error">Error. Please enter correct Username &amp; password.</p>
-                <input class="form-control" placeholder="Username" type="text" id="username" name="username"><br>
-                <input class="form-control" placeholder="Password" type="password" id="password"><br><br>
-                <center><button class="btn btn-lg" style="width: 235px" id="subm">Get Started</button> <br><br> </center>
-           <center><div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false" onlogin=checkLoginState()></div></center>
-        </div>
-    </form>
-    <br>
-        <center>
-        <div>
-            TESTING MODE USE FACEBOOK LOGIN OR USE USERNAME: CompetentCoder PASSWORD: nad298
-        </div>
-        </center>
+    <div class="container">
+        <h1 id="username"><center>Algo-writer</center></h1><br>
+        <h4><center>You write your algorithm in English, and we give you real Java Code Recommendations.</center></h4>
+        <h4><center>Yeah, it's that easy.</center></h4>
+        <h2>Login</h2>
+        <p class="valid">Valid. Please wait a moment.</p>
+        <p class="error">Error. Please enter correct Username &amp; password.</p>
+        <input class="form-control" placeholder="Username" type="text" id="username" name="username"><br>
+        <input class="form-control" placeholder="Password" type="password" id="password"><br><br>
+        <center><button class="btn btn-lg" style="width: 235px" id="subm">Get Started</button> <br><br> </center>
+        <center><div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false" onlogin=checkLoginState()></div></center>
+    </div>
+</form>
+<br>
+<center>
+    <div>
+        TESTING MODE USE FACEBOOK LOGIN OR USE USERNAME: CompetentCoder PASSWORD: nad298
+    </div>
+</center>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="/js/login.js"></script>
-    <script src="/js/facebook.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="/js/login.js"></script>
+<script src="/js/facebook.js"></script>
 </body>
 
 </html>
