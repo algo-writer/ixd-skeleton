@@ -14,18 +14,16 @@ function cbf(result) {
   var initialCodeArrayString = "";
   var suggArrayString = "";
 
-  var userInput = JSON.parse(sessionStorage.getItem('main'));
-  for (var i = 0; i < userInput.length; i++) {
+ for (var c = 0; c < sessionStorage.length; c++){
     for (var j = 0; j < result.sugg.length; j++) {
-        if ( userInput[i].includes(result.sugg[j].english) ) {
-          // initialCodeArray.push(userInput[i]);
-          // suggArray.push(result.sugg[j].suggestions);
-          initialCodeArrayString += userInput[i] + '<br>';
+        if ( sessionStorage.getItem('key'+c).includes(result.sugg[j].english) ) {
+          initialCodeArrayString += sessionStorage.getItem('key'+c) + '<br>';
           suggArrayString += result.sugg[j].suggestions + '<br>';
           console.log("why printing twice" + result.sugg[j].suggestions);
         }    
       }
-    }
+    
+  }
 
     //document.getElementById('initialCodeArray').innerHTML = initialCodeArray.toString();
     //document.getElementById('suggArray').innerHTML = suggArray.toString();
