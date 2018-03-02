@@ -1,11 +1,24 @@
 // Create a "close" button and append it to each list item
+
+window.onload = function(){
+             for (var i = 0; i < sessionStorage.length; i++) {
+            $('#blah').append('<li contenteditable=true class="closeable" id="edit'+i+'">' + sessionStorage.getItem("key"+i) + '</li>');
+        }
+        closeButtons();
+};
+
+function closeButtons() {
+
+
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  var button = document.createElement("BUTTON");
+  button.className="glyphicon glyphicon-remove";
   span.className = "close";
-  span.appendChild(txt);
+  span.contentEditable=false;
+  span.appendChild(button);
   myNodelist[i].appendChild(span);
 }
 
@@ -29,65 +42,15 @@ list.addEventListener('click', function(ev) {
 
 var myStepsArray = [];
 var storageArray = [];
+}
 
-// Create a new list item when clicking on the "Add" button
-function newElement() {
-  var li = document.createElement("li");
-  li.contentEditable = "true";
-  var inputValue = document.getElementById("myInput").value;
-  var t = document.createTextNode(inputValue);
-  myStepsArray[0] = inputValue;
-  appendToStorage(myStepsArray);
-  //const data = JSON.parse(localStorage.getItem('main'));
-  console.log(myStepsArray);
+function appendToStorage(){
+  console.log(document.getElementById("myInput").value);
+  sessionStorage.setItem("key" + sessionStorage.length, document.getElementById("myInput").value);
   console.log(sessionStorage);
-
-
-
-  li.appendChild(t);
-  if (inputValue === '') {
-    alert("You must write something!");
-  } 
-  else {
-    document.getElementById("myUL").appendChild(li);
-  }
-  
-  document.getElementById("myInput").value = "";
-
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
-
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
-    }
-  }
-}
-
-// function appendToStorage(name, data){
-//     var old = sessionStorage.getItem(name);
-//     if(old === null){
-//       sessionStorage.setItem("main", JSON.stringify(data));
-//     } 
-//     else{
-//       var array = JSON.parse(sessionStorage.getItem(name));
-//       array = array.concat(data);
-//       sessionStorage.setItem("main", JSON.stringify(array));
-//     }
-
-// }
-
-function appendToStorage(data){
-  sessionStorage.setItem("key" + sessionStorage.length, data);
   
 }
 
-// function appendToStorage2(name, data, array){
-//     array.push(data);
-//     sessionStorage.setItem("main", JSON.stringify(array));
+function deleteElement(){
 
-// }
+}
