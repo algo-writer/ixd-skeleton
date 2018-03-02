@@ -1,0 +1,13 @@
+#newContainer {
+    width: 200px;
+    height: 350px;
+    position: relative;
+}
+
+#bottom-left {
+    padding: 10px 16px;
+    background-image: none;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}

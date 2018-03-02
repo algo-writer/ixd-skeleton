@@ -2249,6 +2249,7 @@ textarea.input-lg {
   }
 }
 
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -2269,6 +2270,8 @@ textarea.input-lg {
        -o-user-select: none;
           user-select: none;
 }
+
+
 
 .btn:focus {
   outline: thin dotted;
