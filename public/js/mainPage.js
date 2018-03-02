@@ -1,10 +1,10 @@
 // Create a "close" button and append it to each list item
-
 window.onload = function(){
-             for (var i = 0; i < sessionStorage.length; i++) {
-            $('#blah').append('<li contenteditable=true class="closeable" id="edit'+i+'">' + sessionStorage.getItem("key"+i) + '</li>');
-        }
-        closeButtons();
+  console.log(sessionStorage);
+  for (var i = 0; i < sessionStorage.length; i++) {
+    $('#blah').append('<li contenteditable=true class="closeable" id="edit'+i+'">' + sessionStorage.getItem("key"+i) + '</li>');
+  }
+  closeButtons();
 };
 
 function closeButtons() {
@@ -29,6 +29,7 @@ for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
+    deleteElement(div.id.substring(4));
   }
 }
 
@@ -51,6 +52,16 @@ function appendToStorage(){
   
 }
 
-function deleteElement(){
-
+function deleteElement(num){
+  //sessionStorage.removeItem("key" + num);
+  console.log("key" + num);
+  console.log("key" + (Number(num)+1));
+  for (var i = Number(num); i < sessionStorage.length; i++) {
+    sessionStorage.setItem("key" + i, sessionStorage.getItem("key" + (i+1)));
+  }
+  sessionStorage.removeItem("key" + (sessionStorage.length-1));
+  console.log(sessionStorage);
+  // for (var j = 0; j < sessionStorage.length; j++) {
+  //   $("#edit" + j).text(sessionStorage.getItem("key"+j));
+  // }
 }
