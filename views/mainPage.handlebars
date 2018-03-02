@@ -89,7 +89,11 @@
 
 <form>
     <button type="submit" class="button" style="width:50%" formaction="index">Save and Quit</button>
+    {{#unless viewAlt}}
     <button type="submit" class="buttonSeeRec" style="width:50%" formaction="suggestions"><span>See Recommendations</span></button>
+    {{else}}
+        <button type="submit" class="buttonSeeRec" style="width:50%" formaction="suggAlt"><span>See Recommendations</span></button>
+    {{/unless}}
 </form>
 
 </body>

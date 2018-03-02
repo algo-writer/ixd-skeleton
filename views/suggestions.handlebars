@@ -70,7 +70,12 @@ body {
  </div>
 
  <!--     <button  onclick="giveSugg()">See Suggestions"</button> -->
+ {{#unless viewAlt}}
 <button><center><a href="mainPage" class="button">Back to Steps</a></center></button>
+{{/unless}}
+{{#if viewAlt}}
+<button><center><a href="viewAlt" class="button">Back to Steps</a></center></button>
+{{/if}}
 <button><center><a href="index" class="button">Home</a></center></button>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

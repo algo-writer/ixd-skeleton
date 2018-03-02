@@ -93,6 +93,7 @@ app.get('/add5', index2.addStep);
 app.get('/getSuggs', getSuggestions.suggJson);
 app.get('/suggestionstwo', suggestions2.viewSuggestions2);
 app.get('/viewAlt', mainPage.viewAlt);
+app.get('/suggAlt', suggestions.suggAlts);
 // app.get('/suggestions', function(req, res){
 // 	res.json(suggJson);
 // });
