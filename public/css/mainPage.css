@@ -81,7 +81,7 @@ ul li.checked::before {
 .header {
   background-color: lightblue; /*#36cdf4;*/
   padding: 30px 40px;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -129,9 +129,9 @@ input[type=submit] {
 }
 
 .button {
-    background-color: black;
+    background: #d9d9d9;
+    color: #555;
     border: none;
-    color: white;
     padding: 10px 20px;
     cursor: pointer;
     float: left;
@@ -139,18 +139,18 @@ input[type=submit] {
 
 .buttonTopRow {
     background-color: black;
-    border: none;
     color: white;
     padding: 10px 20px;
     cursor: pointer;
     float: left;
-    height: 70px;
+    height: 50px;
+    border: 2px solid lightblue;
 }
 
 .buttonSeeRec {
     background-color: lightblue; /* Blue=#42b9f4 */
     border: none;
-    color: white; /* means color of the text */
+    color: black; /* means color of the text */
     padding: 10px 20px;
     cursor: pointer; /* Pointer/hand icon */
     float: left;
@@ -189,3 +189,4 @@ input[type=submit] {
     display:inline-block;
     width:130px;
 }
+
