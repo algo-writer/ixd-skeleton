@@ -35,6 +35,8 @@ var yourparameters2 = require('./routes/yourparameters2');
 //var suggJson = require('./suggestions.json');
 var getSuggestions = require('./routes/getSuggestions');
 var suggestions2 = require('./routes/suggestions2');
+var mainPage2Alt = require('./routes/mainPage2Alt');
+
 
 // Example route
 // var user = require('./routes/user');
@@ -94,6 +96,7 @@ app.get('/getSuggs', getSuggestions.suggJson);
 app.get('/suggestionstwo', suggestions2.viewSuggestions2);
 app.get('/viewAlt', mainPage.viewAlt);
 app.get('/suggAlt', suggestions.suggAlts);
+app.get('/mainPage2Alt', mainPage2Alt.viewMainPage);
 // app.get('/suggestions', function(req, res){
 // 	res.json(suggJson);
 // });
