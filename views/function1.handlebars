@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/navb.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/css/function1.css">
 </head>
 
 <body>
@@ -30,14 +31,20 @@ body {
     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:5%">
         0%
     </div>
+
 </div class="form-group">
 <form action="function2">
+
     <div class="container">
         <h1>Tell me, what do you want your function to do?</h1>
         <textarea class="input-lg" class="form-control" rows="3" cols="30" name="description" placeholder="Enter text here..."></textarea>
         <br><br>
-        <button class="btn btn-lg" type="submit"> Done!</button>
-        <button type="submit" class="btn btn-lg" formaction="index">&laquo; Wait, nevermind.</button>
+        <div id="newContainer">
+            <button class="btn btn-lg" type="submit"> Done!</button>
+            <div id = "bottom-left">
+                <button type="submit" class="btn btn-lg" formaction="index">&laquo; Wait, nevermind.</button>
+            </div>
+        </div>
     </div>
 </form>
 

@@ -1,21 +1,13 @@
-.backButton {
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 6px;
-  position:absolute;
-  right:    0;
-  bottom:   0;
-
+#newContainer {
+    width: 200px;
+    height: 350px;
+    position: relative;
 }
 
-.bottomleft #please {
+#bottom-left {
     padding: 10px 16px;
-      font-size: 18px;
-      line-height: 1.33;
-      border-radius: 6px;
-      position:absolute;
-      right:    0;
-      bottom:   0;
+    background-image: none;
+    left: 0;
+    bottom: 0;
+    position: absolute;
 }
-

@@ -10,6 +10,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="../css/navb.css">    
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/function1.css">
 </head>
 
 <body>
@@ -33,11 +34,15 @@ body {
     <div class="container">
         <h1>Do you want your function to return something?</h1>
         <form>
-            <button class="btn btn-lg" type="submit" formaction="freturn">Yes</button>
-            <button class="btn btn-lg" type="submit" formaction="function4">No</button>
-            <br><br>
-            <button class="btn btn-lg" type="submit" formaction="help2">I need help!</button>
-            <button class="btn btn-lg" type="submit" formaction="function2">&laquo; Wait, go back!</button>
+            <div id = "container">
+                <button class="btn btn-lg" type="submit" formaction="freturn">Yes</button>
+                <button class="btn btn-lg" type="submit" formaction="function4">No</button>
+                <br><br>
+                <button class="btn btn-lg" type="submit" formaction="help2">I need help!</button>
+                <div id = "bottom-left">
+                    <button class="btn btn-lg" type="submit" formaction="function2">&laquo; Wait, go back!</button>
+                </div>
+            </div>
         </form>
     </div>
 </body>
