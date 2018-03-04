@@ -5,11 +5,5 @@ var save=require('../save.json');
 
 exports.viewMainPage = function(req, res){
   //console.log(data);
-  save['viewAlt']=false;
   res.render('mainPage',save);
 };
-
-exports.viewAlt = function(req, res) {
-  save['viewAlt']=true;
-  res.render('mainPage',save);
-}

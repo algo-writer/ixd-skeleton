@@ -94,7 +94,7 @@ app.get('/add3', yourparameters2.addParameter);
 app.get('/add5', index2.addStep);
 app.get('/getSuggs', getSuggestions.suggJson);
 app.get('/suggestionstwo', suggestions2.viewSuggestions2);
-app.get('/viewAlt', mainPage.viewAlt);
+app.get('/viewAlt', login.viewAlt);
 app.get('/suggAlt', suggestions.suggAlts);
 app.get('/mainPage2Alt', mainPage2Alt.viewMainPage);
 // app.get('/suggestions', function(req, res){

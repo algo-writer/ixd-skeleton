@@ -1,8 +1,14 @@
-
+var save=require('../save.json');
 /*
  * GET function1 page.
  */
 
 exports.viewLogin = function(req, res){
-  res.render('login');
+  save['viewAlt']=false;
+  res.render('login',save);
+};
+
+exports.viewAlt = function(req, res){
+    save['viewAlt']=true;
+    res.render('login',save);
 };
