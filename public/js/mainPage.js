@@ -60,6 +60,7 @@ function deleteElement(num){
     sessionStorage.setItem("key" + i, sessionStorage.getItem("key" + (i+1)));
   }
   sessionStorage.removeItem("key" + (sessionStorage.length-1));
+  $("#edit" + num).text(sessionStorage.getItem("key"+(num)));
   console.log(sessionStorage);
   // for (var j = 0; j < sessionStorage.length; j++) {
   //   $("#edit" + j).text(sessionStorage.getItem("key"+j));

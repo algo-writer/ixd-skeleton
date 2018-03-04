@@ -21,10 +21,10 @@
 
     window.addEventListener("beforeunload", function saveEdit(){
 
-        // for(var i=0;i<sessionStorage.length;i++){
-        //                     sessionStorage.setItem("key" + i, $("#edit" + i).text());
+        for(var i=0;i<sessionStorage.length;i++){
+                            sessionStorage.setItem("key" + i, $("#edit" + i).text());
                     
-        // };
+        };
     });
 </script>
 
