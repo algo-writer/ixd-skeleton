@@ -39,7 +39,7 @@ body {
 	  </div>
 	</nav>
 	<div class="container" align="center">
-		<h1>Hi {{username}}! What would you like to code today?</h1>
+		<h1>Hey! What would you like to code today?</h1>
 		<img src="http://lorempixel.com/150/140/people/" style="border-radius: 50%">
 		<br>
 		<br>
@@ -56,7 +56,12 @@ body {
 				<br>
 				<div class="row">
                     <div id = "bottom-left">
+                        {{#unless viewAlt}}
 					    <button type="submit" class="btn btn-lg" formaction="login">&laquo; Logout</button>
+                        {{/unless}}
+                        {{#if viewAlt}}
+                            <button type="submit" class="btn btn-lg" formaction="viewAlt">&laquo; Logout</button>
+                        {{/if}}
                     </div>
 				</div>
                 </div>

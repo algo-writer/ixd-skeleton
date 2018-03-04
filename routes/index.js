@@ -1,33 +1,9 @@
-var data = require("../data.json")
+var save=require('../save.json');
 
 /*
  * GET home page.
  */
-
-function pushUnique(user){
-	//for(var item in data.users) {
-	if(JSON.stringify(data.users).indexOf(user.username) === -1) {
-		return data.users.push(user);
-	};
-	//};
-}
-
-exports.view = function(req, res){
-	var user = {
-		"username":"Guest",
-	};
-
-	pushUnique(user);
-	console.log(data);
-	res.render('index',user);
-};
-
 exports.viewName = function(req, res){
-	var user = {
-		"username":req.query.username,
-	};
 
-	data.users.push(user);
-	console.log(data);
-	res.render('index',user);
+	res.render('index',save);
 }
