@@ -6,17 +6,17 @@
 
     <script>
         $(document).ready(function(){
-        $('#addbtn').click(function() {
+            $('#addbtn').click(function() {
 
 
-            $('#blah').append('<li  id="edit'+(sessionStorage.length-1)+'">' + sessionStorage.getItem("key"+(sessionStorage.length-1)) + '</li>');
-                    console.log("key"+(sessionStorage.length-1));
+                $('#blah').append('<li  id="edit'+(sessionStorage.length-1)+'">' + sessionStorage.getItem("key"+(sessionStorage.length-1)) + '</li>');
+                        console.log("key"+(sessionStorage.length-1));
 
-   document.getElementById("myInput").value = "";
-        console.log(sessionStorage);
-        closeButtons();
+                document.getElementById("myInput").value = "";
+                console.log(sessionStorage);
+                closeButtons();
 
-    });
+            });
         });
 
     window.addEventListener("beforeunload", function saveEdit(){
@@ -96,6 +96,16 @@
         <button type="submit" class="buttonSeeRec" style="width:50%" formaction="suggAlt"><span>See Recommendations</span></button>
     {{/unless}}
 </form>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115036537-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115036537-1');
+</script>
 
 </body>
 
