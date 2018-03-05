@@ -97,6 +97,7 @@ app.get('/suggestionstwo', suggestions2.viewSuggestions2);
 app.get('/viewAlt', login.viewAlt);
 app.get('/suggAlt', suggestions.suggAlts);
 app.get('/mainPage2Alt', mainPage2Alt.viewMainPage);
+app.get('/add6', mainPage2Alt.addStep)
 // app.get('/suggestions', function(req, res){
 // 	res.json(suggJson);
 // });
