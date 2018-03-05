@@ -40,7 +40,7 @@ body {
 	</nav>
 	<div class="container" align="center">
 		<h1>Hey! What would you like to code today?</h1>
-		<img src="http://lorempixel.com/150/140/people/" style="border-radius: 50%">
+		<img src="http://lorempixel.com/150/140/people/" style="border-radius: 50%"><br><br>
         <p>New Here? We have a static "Tutorial" you can explore by choosing "Continue".</p>
 		<form>
 			<div class="container">
@@ -53,20 +53,18 @@ body {
 					<button type="submit" class="btn btn-lg btn-block" formaction="saves">Continue on a Function</button>
 				</div>
                     <br>
-                    <div class="row">
                         {{#unless viewAlt}}
-                            <button type="submit" class="btn btn-lg" formaction="login">&laquo; Logout</button>
+                            <div id = "bottom-left">
+                                <button type="submit" class="btn btn-lg" formaction="login">&laquo; Logout</button>
+                            </div>
                         {{/unless}}
                         {{#if viewAlt}}
-                            <button type="submit" class="btn btn-lg" formaction="viewAlt">&laquo; Logout</button>
+                            <div id = "bottom-left">
+                                <button type="submit" class="btn btn-lg" formaction="viewAlt">&laquo; Logout</button>
+                            </div>
                         {{/if}}
-                    </div>
-				<br>
-				<div class="row">
-                    <br><br>
-
-				</div>
                 </div>
+                <br>
 			</div>
 		</form>
 	</div>
