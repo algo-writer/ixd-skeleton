@@ -816,7 +816,29 @@
       {
         "english": "Hello",
         "suggestions": "Welcome to Algo-writer! If you need help, click on Quick Tips on the previous page."
+      },
+      {
+        "english": "this is stupid",
+        "suggestions": "You're Stupid >:( ... JK ILY <3 XOXO"
+      },
+      {
+        "english": "jason",
+        "suggestions": "Good job Jason!"
+      },
+      {
+        "english": "Jason",
+        "suggestions": "Good job Jason!"
+      },
+      {
+        "english": "Andrew",
+        "suggestions": "I thought AJAX was for cleaning bathrooms."
+      },
+      {
+        "english": "andrew",
+        "suggestions": "I thought AJAX was for cleaning bathrooms."
       }
 
-  ]   
+
+
+    ]
 }
