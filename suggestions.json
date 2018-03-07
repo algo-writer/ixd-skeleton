@@ -754,6 +754,10 @@
         "suggestions": "return <name of var>"
       },
       {
+        "english": "temp",
+        "suggestions": "int temp = 0"
+      },
+      {
         "english": "return my var",
         "suggestions": "return <name of var>"
       },
@@ -836,9 +840,10 @@
       {
         "english": "andrew",
         "suggestions": "I thought AJAX was for cleaning bathrooms."
+      },
+      {
+        "english": "andrew",
+        "suggestions": "I thought AJAX was for cleaning bathrooms."
       }
-
-
-
     ]
 }
