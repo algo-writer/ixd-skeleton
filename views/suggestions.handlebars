@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="/css/navb.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=java&amp;skin=sons-of-obsidian"></script>
+    <script src="../js/prettify.js"></script>
 <script>
 
 $.get("/getSuggs",cbf);
@@ -16,7 +16,7 @@ function cbf(result) {
   var suggCounter = 0;
  for (var c = 0; c < sessionStorage.length; c++){
     for (var j = 0; j < result.sugg.length; j++) {
-        if ( sessionStorage.getItem('key'+c).includes(result.sugg[j].english) ) {
+        if ( sessionStorage.getItem('key'+c).toLowerCase().includes(result.sugg[j].english) ) {
           suggCounter = 1;
           initialCodeArrayString += sessionStorage.getItem('key'+c) + '<br>';
           suggArrayString += result.sugg[j].suggestions + '<br>';
@@ -27,9 +27,7 @@ function cbf(result) {
           }
         }    
       }
-    
   }
-
     $("#suggArray").html(suggArrayString);
     $("#initialCodeArray").html(initialCodeArrayString);
 
