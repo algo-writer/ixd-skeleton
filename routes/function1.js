@@ -5,4 +5,5 @@
 
 exports.viewFunction1 = function(req, res){
   res.render('function1');
+
 };

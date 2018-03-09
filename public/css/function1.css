@@ -5,9 +5,9 @@
 }
 
 #bottom-left {
-    padding: 10px 16px;
+    padding: 230px 0px;
     background-image: none;
     left: 0;
     bottom: 0;
-    position: absolute;
+    position: relative;
 }
