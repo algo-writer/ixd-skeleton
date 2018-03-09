@@ -7119,3 +7119,9 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+.navbar {
+  background-color: #00bfa5;
+  min-height: 30px;
+}

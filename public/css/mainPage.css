@@ -83,8 +83,8 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: lightblue; /*#36cdf4;*/
-  padding: 30px 40px;
+  background-color: white; /*#36cdf4;*/
+  padding: 20px 40px;
   color: black;
   text-align: center;
 }
