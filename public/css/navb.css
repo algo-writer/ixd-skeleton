@@ -4,8 +4,23 @@
     left: 0;
     text-align: center;
     closeable: false;
+    font-family: Roboto;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 29px;
+
+	/*color: #000000;*/
 }
 
+.nav-font {
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: 900;
+	line-height: normal;
+	font-size: 29px;
+
+	color: #000000;
+}
 
 
 
