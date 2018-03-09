@@ -97,7 +97,7 @@
 
 <body>
 <header>
-    <nav class="navbar-center navbar-inverse bg-primary">
+    <nav class="navbar-center navbar-default bg-primary">
         <a class="navbar-brand brand"><h4>Algo-writer</h4></a>
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -122,6 +122,7 @@
         <button class="buttonTopRow" style="width:33.3%"><a href="tips">Quick Tips</a></button>
     </div>
 </div>
+
 <div class='container'>
 <ul id="myUL">
     <p id="ex">Click the 'Add button' at the top to add your first step! You can edit and delete your steps once you've added them!</p>
@@ -140,16 +141,23 @@
         <span class="glyphicon glyphicon-plus"></span>
     </span>
 {{/if}}
+
 <script src="../js/mainPage.js"></script>
 
+<br>
+<div class="container">
 <form>
-    <button type="submit" class="button" style="width:50%" formaction="index">Save and Quit</button>
+<!-- <div id="div" class="btn-group2" style="width:100%"> -->
+    <button type="submit" class="button" style="height:60px; width:47%;margin-right: 6%" formaction="index">Save and Quit</button>
+<!--     <div class="divider"/> -->
     {{#unless viewAlt}}
-    <button type="submit" class="buttonSeeRec" style="width:50%" formaction="suggestions"><span>See Recommendations</span></button>
+    <button type="submit" class="buttonSeeRec" style="height:60px; width:47%; background-color:#D0F18F" formaction="suggestions"><span>See Recommendations</span></button>
     {{else}}
-        <button type="submit" class="buttonSeeRec" style="width:50%" formaction="suggAlt"><span>See Recommendations</span></button>
+        <button type="submit" class="buttonSeeRec" style="height:60px; width:47%; background-color:#D0F18F" formaction="suggAlt"><span>See Recommendations</span></button>
     {{/unless}}
+<!-- </div> -->
 </form>
+</div>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115036537-1"></script>
