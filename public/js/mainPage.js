@@ -18,6 +18,7 @@ function closeButtons() {
     var span = document.createElement("SPAN");
     var button = document.createElement("BUTTON");
     button.className="glyphicon glyphicon-remove";
+    button.classList.add("deleteBtn");
     span.className = "close";
     span.contentEditable=false;
     span.appendChild(button);

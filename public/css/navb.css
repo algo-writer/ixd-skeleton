@@ -12,6 +12,7 @@
 	/*color: #000000;*/
 }
 
+
 .nav-font {
 	font-family: Roboto;
 	font-style: italic;
@@ -21,6 +22,11 @@
 
 	color: #000000;
 }
+
+.navbar-bar {
+	background-color: #00bfaf;
+}
+
 
 
 

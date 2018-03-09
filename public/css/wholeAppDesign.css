@@ -7,5 +7,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 button{
-	background-color: #40BDDB;
+	background-color: #bbb;
+}
+
+.br2 {
+   display: block;
+   margin: 10px 0;
 }

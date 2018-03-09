@@ -36,18 +36,22 @@ ul li:nth-child(odd) {
   background: #f9f9f9;
 }
 
+ul li:nth-child(even) {
+  background: #a8dac1;
+}
+
 /* Darker background-color on hover */
-ul li:hover {
+/*ul li:hover {
   background: #ddd;
 }
-
+*/
 /* When clicked on, add a background color and strike out text */
-ul li.checked {
+/*ul li.checked {
   background: #888;
   color: black;
- /* text-decoration: line-through; */
-}
 
+}
+*/
 /* Add a "checked" mark when clicked on */
 /*
 ul li.checked::before {
@@ -79,8 +83,8 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: lightblue; /*#36cdf4;*/
-  padding: 30px 40px;
+  background-color: white; /*#36cdf4;*/
+  padding: 20px 40px;
   color: black;
   text-align: center;
 }
@@ -126,7 +130,7 @@ input.id {
 input[type=submit] {
   border: none; /*rewriting standard style, it is necessary to be able to change the size*/
   height: 100px;
-  width: 200px
+  width: 200px;
 }
 
 .button {
@@ -136,6 +140,8 @@ input[type=submit] {
     padding: 10px 20px;
     cursor: pointer;
     float: left;
+    border-radius: 12px;
+
 }
 
 .buttonTopRow {
@@ -149,12 +155,14 @@ input[type=submit] {
 }
 
 .buttonSeeRec {
-    background-color: lightblue; /* Blue=#42b9f4 */
+    background-color: #d9d9d9; /* Blue=#42b9f4 */
     border: none;
     color: black; /* means color of the text */
     padding: 10px 20px;
     cursor: pointer; /* Pointer/hand icon */
     float: left;
+    border-radius: 12px;
+    vertical-align: middle;
 }
 
 .buttonSeeRec span {
@@ -186,8 +194,23 @@ input[type=submit] {
     border: 1px solid white;
 }
 
+.btn-group2 {
+    border: none;
+}
+
 #container div{
     display:inline-block;
     width:130px;
+}
+
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
 }
 
