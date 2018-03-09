@@ -112,9 +112,11 @@
     <h2 style="margin:5px">My Algorithm</h2>
 
 {{#unless viewAlt}}
-    <input type="text" id="myInput" style="margin-left:5%" placeholder="Next Step">
+
+    <input type="text" id="myInput" placeholder="Next Step">
     <span id='addbtn' onclick="appendToStorage()" class="addBtn">Add</span>
 {{/unless}}
+
 
 </div>
 
@@ -132,7 +134,7 @@
 
 <div class='container'>
 <ul id="myUL">
-    <p id="ex">Click the 'Add button' at the top to add your first step! You can edit and delete your steps once you've added them!</p>
+    <p id="ex">Click the '+ button' to add your first step! You can edit and delete your steps once you've added them!</p>
     <div id="blah" contenteditable=true>
         
         <!--<li class="closeable">You can add, delete, and edit steps</li>-->
@@ -141,12 +143,15 @@
 </ul>
 </div>
 
+<br>
 
 {{#if viewAlt}}
+<div class='container'>
     <input type="text" id="myInput" placeholder="Next Step">
-    <span id='addbtn1' onclick="appendToStorage()" class="addBtn" >
+    <span id='addbtn1' style="margin-left: 8px" onclick="appendToStorage()" class="addBtn" >
         <span class="glyphicon glyphicon-plus"></span>
     </span>
+</div>
 {{/if}}
 
 <script src="../js/mainPage.js"></script>
