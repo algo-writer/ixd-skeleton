@@ -37,7 +37,7 @@ ul li:nth-child(odd) {
 }
 
 ul li:nth-child(even) {
-  background: #a8dac1;
+  background: #E5F1EC;
 }
 
 /* Darker background-color on hover */
